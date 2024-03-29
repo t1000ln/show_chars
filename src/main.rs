@@ -3,6 +3,7 @@ mod ascii;
 mod fltk_color;
 mod ansi_8_color;
 mod emoji;
+mod html_color;
 
 #[cfg(target_os = "linux")]
 use std::path::PathBuf;
