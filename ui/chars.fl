@@ -1,0 +1,286 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0400
+header_name {.h}
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window win_main {
+      label Chars open
+      xywh {463 186 1280 800} type Double color 54 resizable hotspot size_range {200 200 1920 1080} visible
+    } {
+      Fl_Flex {} {open
+        xywh {0 0 1280 800} box FLAT_BOX color 54 labeltype NO_LABEL resizable hotspot margins {5 5 5 5} gap 5
+      } {
+        Fl_Tabs tab_main {open
+          xywh {5 5 1270 790} color 54 selection_color 7 labeltype ENGRAVED_LABEL labelcolor 4 when 1
+          code0 {tab_main.set_tab_align(Align::Center|Align::Wrap);}
+          code1 {tab_main.clear_visible_focus();}
+          code2 {tab_main.visible_focus(false);}
+        } {
+          Fl_Flex flex_ascii {
+            label ASCII open
+            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} set_size_tuples {1  1 800 }
+          } {
+            Fl_Box {} {
+              xywh {10 10 230 760}
+            }
+            Fl_Flex flex_ascii_table {open
+              xywh {240 10 800 760}
+            } {}
+            Fl_Box {} {
+              xywh {1040 10 230 760}
+            }
+          }
+          Fl_Flex flex_emoji {
+            label Emoji open
+            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 set_size_tuples {1  1 1100 }
+          } {
+            Fl_Box {} {
+              xywh {5 5 85 770}
+            }
+            Fl_Flex flex_emoji_table {open selected
+              xywh {90 5 1100 770}
+            } {}
+            Fl_Box {} {
+              xywh {1190 5 85 770}
+            }
+          }
+          Fl_Flex flex_characters {
+            label Characters
+            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide
+          } {}
+          Fl_Flex flex_color {
+            label {FLTK-Color}
+            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} gap 5 set_size_tuples {1  1 600 }
+          } {
+            Fl_Box {} {
+              xywh {10 10 325 760}
+            }
+            Fl_Flex flex_fltk_color {open
+              xywh {340 10 600 760}
+            } {}
+            Fl_Flex {} {open
+              xywh {945 10 325 760} set_size_tuples {1  1 50 }
+            } {
+              Fl_Box {} {
+                xywh {945 10 325 355}
+              }
+              Fl_Flex {} {open
+                xywh {945 365 325 50} type HORIZONTAL set_size_tuples {1  1 80 }
+              } {
+                Fl_Box {} {
+                  xywh {945 365 123 50}
+                }
+                Fl_Light_Button btn_toggle_color_index {
+                  label {显示序号}
+                  xywh {1068 365 80 50} value 1 color 53 selection_color 2
+                  code0 {btn_toggle_color_index.clear_visible_focus();}
+                  code1 {btn_toggle_color_index.visible_focus(false);}
+                }
+                Fl_Box {} {
+                  xywh {1148 365 122 50}
+                }
+              }
+              Fl_Box {} {
+                xywh {945 415 325 355}
+              }
+            }
+          }
+          Fl_Flex flex_ansi_8_color {
+            label {ANSI-8bit-Color}
+            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} gap 10 set_size_tuples {2  0 64  2 64 }
+          } {
+            Fl_Flex {} {open
+              xywh {10 10 1260 64} type HORIZONTAL margins {2 2 2 2} gap 10
+            } {
+              Fl_Flex {} {
+                label {标准色}
+                xywh {12 12 623 60} type HORIZONTAL align 17 margins {0 24 0 0} gap 1
+              } {
+                Fl_Box box_normal1 {
+                  label 0
+                  xywh {12 36 77 36} box FLAT_BOX color 0 labelcolor 7
+                }
+                Fl_Box box_normal2 {
+                  label 1
+                  xywh {90 36 77 36} box FLAT_BOX color 72 labelcolor 7
+                }
+                Fl_Box box_normal3 {
+                  label 2
+                  xywh {168 36 77 36} box FLAT_BOX color 60 labelcolor 7
+                }
+                Fl_Box box_normal4 {
+                  label 3
+                  xywh {246 36 77 36} box FLAT_BOX color 84 labelcolor 7
+                }
+                Fl_Box box_normal5 {
+                  label 4
+                  xywh {324 36 77 36} box FLAT_BOX color 15 labelcolor 7
+                }
+                Fl_Box box_normal6 {
+                  label 5
+                  xywh {402 36 77 36} box FLAT_BOX color 13 labelcolor 7
+                }
+                Fl_Box box_normal7 {
+                  label 6
+                  xywh {480 36 77 36} box FLAT_BOX color 14 labelcolor 7
+                }
+                Fl_Box box_normal8 {
+                  label 7
+                  xywh {558 36 77 36} box FLAT_BOX color 53
+                }
+              }
+              Fl_Flex {} {
+                label {高亮色}
+                xywh {645 12 623 60} type HORIZONTAL align 17 margins {0 24 0 0} gap 1
+              } {
+                Fl_Box box_high1 {
+                  label 8
+                  xywh {645 36 77 36} box FLAT_BOX color 47
+                }
+                Fl_Box box_high2 {
+                  label 9
+                  xywh {723 36 77 36} box FLAT_BOX color 1
+                }
+                Fl_Box box_high3 {
+                  label 10
+                  xywh {801 36 77 36} box FLAT_BOX color 2
+                }
+                Fl_Box box_high4 {
+                  label 11
+                  xywh {879 36 77 36} box FLAT_BOX color 3
+                }
+                Fl_Box box_high5 {
+                  label 12
+                  xywh {957 36 77 36} box FLAT_BOX color 4
+                }
+                Fl_Box box_high6 {
+                  label 13
+                  xywh {1035 36 77 36} box FLAT_BOX color 5
+                }
+                Fl_Box box_high7 {
+                  label 14
+                  xywh {1113 36 77 36} box FLAT_BOX color 6
+                }
+                Fl_Box box_high8 {
+                  label 15
+                  xywh {1191 36 77 36} box FLAT_BOX color 7
+                }
+              }
+            }
+            Fl_Flex flex_ansi_216 {
+              label {216色} open
+              xywh {10 84 1260 301} align 17 margins {0 24 0 0} gap 5
+            } {}
+            Fl_Flex flex_ansi_gray {
+              label {灰度色}
+              xywh {10 395 1260 64} type HORIZONTAL align 17 margins {2 24 2 2} gap 1
+            } {
+              Fl_Box {} {
+                label 232
+                xywh {12 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 233
+                xywh {65 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 234
+                xywh {118 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 235
+                xywh {171 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 236
+                xywh {224 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 237
+                xywh {277 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 238
+                xywh {330 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 239
+                xywh {383 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 240
+                xywh {436 419 52 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 241
+                xywh {489 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 242
+                xywh {541 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 243
+                xywh {593 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 244
+                xywh {645 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 245
+                xywh {697 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 246
+                xywh {749 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 247
+                xywh {801 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 248
+                xywh {853 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 249
+                xywh {905 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 250
+                xywh {957 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 251
+                xywh {1009 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 252
+                xywh {1061 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 253
+                xywh {1113 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 254
+                xywh {1165 419 51 38} box FLAT_BOX
+              }
+              Fl_Box {} {
+                label 255
+                xywh {1217 419 51 38} box FLAT_BOX
+              }
+            }
+            Fl_Box {} {
+              xywh {10 469 1260 301}
+            }
+          }
+        }
+      }
+    }
+  }
+}
