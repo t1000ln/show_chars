@@ -5,7 +5,6 @@ mod ansi_8_color;
 mod emoji;
 
 use std::path::PathBuf;
-use fltk::app;
 use fltk::app::App;
 use fltk::enums::Font;
 use crate::ansi_8_color::init_ansi_8_color;
