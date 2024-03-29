@@ -1,7 +1,7 @@
 
 
 
-
+// https://codeplayer.vip/app/html-color-table
 pub const HTML_COLORS: &[(&str, u8, u8, u8, &str)] = &[
     ("Snow", 255, 250, 250, "#FFFAFA"),
     ("PaleTurquoise1", 187, 255, 255, "#BBFFFF"),
