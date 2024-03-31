@@ -14,6 +14,7 @@ use crate::ansi_8_color::init_ansi_8_color;
 use crate::ascii::init_ascii_tab;
 use crate::emoji::init_emoji;
 use crate::fltk_color::init_fltk_color;
+use crate::html_color::init_html_color;
 use crate::ui_loader::UserInterface;
 
 
@@ -46,6 +47,7 @@ fn main() {
     init_emoji(&mut ui);
     init_fltk_color(&mut ui);
     init_ansi_8_color(&mut ui);
+    init_html_color(&mut ui);
 
     app_ins.run().unwrap();
 }

@@ -1,0 +1,3187 @@
+[
+  {
+    "name": "Snow",
+    "r": 255,
+    "g": 250,
+    "b": 250,
+    "hex": "#FFFAFA"
+  },
+  {
+    "name": "GhostWhite",
+    "r": 248,
+    "g": 248,
+    "b": 255,
+    "hex": "#F8F8FF"
+  },
+  {
+    "name": "WhiteSmoke",
+    "r": 245,
+    "g": 245,
+    "b": 245,
+    "hex": "#F5F5F5"
+  },
+  {
+    "name": "Gainsboro",
+    "r": 220,
+    "g": 220,
+    "b": 220,
+    "hex": "#DCDCDC"
+  },
+  {
+    "name": "FloralWhite",
+    "r": 255,
+    "g": 250,
+    "b": 240,
+    "hex": "#FFFAF0"
+  },
+  {
+    "name": "OldLace",
+    "r": 253,
+    "g": 245,
+    "b": 230,
+    "hex": "#FDF5E6"
+  },
+  {
+    "name": "Linen",
+    "r": 250,
+    "g": 240,
+    "b": 230,
+    "hex": "#FAF0E6"
+  },
+  {
+    "name": "AntiqueWhite",
+    "r": 250,
+    "g": 235,
+    "b": 215,
+    "hex": "#FAEBD7"
+  },
+  {
+    "name": "PapayaWhip",
+    "r": 255,
+    "g": 239,
+    "b": 213,
+    "hex": "#FFEFD5"
+  },
+  {
+    "name": "BlanchedAlmond",
+    "r": 255,
+    "g": 235,
+    "b": 205,
+    "hex": "#FFEBCD"
+  },
+  {
+    "name": "Bisque",
+    "r": 255,
+    "g": 228,
+    "b": 196,
+    "hex": "#FFE4C4"
+  },
+  {
+    "name": "PeachPuff",
+    "r": 255,
+    "g": 218,
+    "b": 185,
+    "hex": "#FFDAB9"
+  },
+  {
+    "name": "NavajoWhite",
+    "r": 255,
+    "g": 222,
+    "b": 173,
+    "hex": "#FFDEAD"
+  },
+  {
+    "name": "Moccasin",
+    "r": 255,
+    "g": 228,
+    "b": 181,
+    "hex": "#FFE4B5"
+  },
+  {
+    "name": "Cornsilk",
+    "r": 255,
+    "g": 248,
+    "b": 220,
+    "hex": "#FFF8DC"
+  },
+  {
+    "name": "Ivory",
+    "r": 255,
+    "g": 255,
+    "b": 240,
+    "hex": "#FFFFF0"
+  },
+  {
+    "name": "LemonChiffon",
+    "r": 255,
+    "g": 250,
+    "b": 205,
+    "hex": "#FFFACD"
+  },
+  {
+    "name": "Seashell",
+    "r": 255,
+    "g": 245,
+    "b": 238,
+    "hex": "#FFF5EE"
+  },
+  {
+    "name": "Honeydew",
+    "r": 240,
+    "g": 255,
+    "b": 240,
+    "hex": "#F0FFF0"
+  },
+  {
+    "name": "MintCream",
+    "r": 245,
+    "g": 255,
+    "b": 250,
+    "hex": "#F5FFFA"
+  },
+  {
+    "name": "Azure",
+    "r": 240,
+    "g": 255,
+    "b": 255,
+    "hex": "#F0FFFF"
+  },
+  {
+    "name": "AliceBlue",
+    "r": 240,
+    "g": 248,
+    "b": 255,
+    "hex": "#F0F8FF"
+  },
+  {
+    "name": "Lavender",
+    "r": 230,
+    "g": 230,
+    "b": 250,
+    "hex": "#E6E6FA"
+  },
+  {
+    "name": "LavenderBlush",
+    "r": 255,
+    "g": 240,
+    "b": 245,
+    "hex": "#FFF0F5"
+  },
+  {
+    "name": "MistyRose",
+    "r": 255,
+    "g": 228,
+    "b": 225,
+    "hex": "#FFE4E1"
+  },
+  {
+    "name": "White",
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "hex": "#FFFFFF"
+  },
+  {
+    "name": "Black",
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "hex": "#000000"
+  },
+  {
+    "name": "DarkSlateGray",
+    "r": 47,
+    "g": 79,
+    "b": 79,
+    "hex": "#2F4F4F"
+  },
+  {
+    "name": "DimGray",
+    "r": 105,
+    "g": 105,
+    "b": 105,
+    "hex": "#696969"
+  },
+  {
+    "name": "SlateGray",
+    "r": 112,
+    "g": 128,
+    "b": 144,
+    "hex": "#708090"
+  },
+  {
+    "name": "LightSlateGray",
+    "r": 119,
+    "g": 136,
+    "b": 153,
+    "hex": "#778899"
+  },
+  {
+    "name": "Grey",
+    "r": 190,
+    "g": 190,
+    "b": 190,
+    "hex": "#BEBEBE"
+  },
+  {
+    "name": "LightGrey",
+    "r": 211,
+    "g": 211,
+    "b": 211,
+    "hex": "#D3D3D3"
+  },
+  {
+    "name": "MidnightBlue",
+    "r": 25,
+    "g": 25,
+    "b": 112,
+    "hex": "#191970"
+  },
+  {
+    "name": "Navy",
+    "r": 0,
+    "g": 0,
+    "b": 128,
+    "hex": "#000080"
+  },
+  {
+    "name": "CornflowerBlue",
+    "r": 100,
+    "g": 149,
+    "b": 237,
+    "hex": "#6495ED"
+  },
+  {
+    "name": "DarkSlateBlue",
+    "r": 72,
+    "g": 61,
+    "b": 139,
+    "hex": "#483D8B"
+  },
+  {
+    "name": "SlateBlue",
+    "r": 106,
+    "g": 90,
+    "b": 205,
+    "hex": "#6A5ACD"
+  },
+  {
+    "name": "MediumSlateBlue",
+    "r": 123,
+    "g": 104,
+    "b": 238,
+    "hex": "#7B68EE"
+  },
+  {
+    "name": "LightSlateBlue",
+    "r": 132,
+    "g": 112,
+    "b": 255,
+    "hex": "#8470FF"
+  },
+  {
+    "name": "MediumBlue",
+    "r": 0,
+    "g": 0,
+    "b": 205,
+    "hex": "#0000CD"
+  },
+  {
+    "name": "RoyalBlue",
+    "r": 65,
+    "g": 105,
+    "b": 225,
+    "hex": "#4169E1"
+  },
+  {
+    "name": "Blue",
+    "r": 0,
+    "g": 0,
+    "b": 255,
+    "hex": "#0000FF"
+  },
+  {
+    "name": "DodgerBlue",
+    "r": 30,
+    "g": 144,
+    "b": 255,
+    "hex": "#1E90FF"
+  },
+  {
+    "name": "DeepSkyBlue",
+    "r": 0,
+    "g": 191,
+    "b": 255,
+    "hex": "#00BFFF"
+  },
+  {
+    "name": "SkyBlue",
+    "r": 135,
+    "g": 206,
+    "b": 235,
+    "hex": "#87CEEB"
+  },
+  {
+    "name": "LightSkyBlue",
+    "r": 135,
+    "g": 206,
+    "b": 250,
+    "hex": "#87CEFA"
+  },
+  {
+    "name": "SteelBlue",
+    "r": 70,
+    "g": 130,
+    "b": 180,
+    "hex": "#4682B4"
+  },
+  {
+    "name": "LightSteelBlue",
+    "r": 176,
+    "g": 196,
+    "b": 222,
+    "hex": "#B0C4DE"
+  },
+  {
+    "name": "LightBlue",
+    "r": 173,
+    "g": 216,
+    "b": 230,
+    "hex": "#ADD8E6"
+  },
+  {
+    "name": "PowderBlue",
+    "r": 176,
+    "g": 224,
+    "b": 230,
+    "hex": "#B0E0E6"
+  },
+  {
+    "name": "PaleTurquoise",
+    "r": 175,
+    "g": 238,
+    "b": 238,
+    "hex": "#AFEEEE"
+  },
+  {
+    "name": "DarkTurquoise",
+    "r": 0,
+    "g": 206,
+    "b": 209,
+    "hex": "#00CED1"
+  },
+  {
+    "name": "MediumTurquoise",
+    "r": 72,
+    "g": 209,
+    "b": 204,
+    "hex": "#48D1CC"
+  },
+  {
+    "name": "Turquoise",
+    "r": 64,
+    "g": 224,
+    "b": 208,
+    "hex": "#40E0D0"
+  },
+  {
+    "name": "Aqua",
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "hex": "#00FFFF"
+  },
+  {
+    "name": "LightCyan",
+    "r": 224,
+    "g": 255,
+    "b": 255,
+    "hex": "#E0FFFF"
+  },
+  {
+    "name": "CadetBlue",
+    "r": 95,
+    "g": 158,
+    "b": 160,
+    "hex": "#5F9EA0"
+  },
+  {
+    "name": "MediumAquamarine",
+    "r": 102,
+    "g": 205,
+    "b": 170,
+    "hex": "#66CDAA"
+  },
+  {
+    "name": "Aquamarine",
+    "r": 127,
+    "g": 255,
+    "b": 212,
+    "hex": "#7FFFD4"
+  },
+  {
+    "name": "DarkGreen",
+    "r": 0,
+    "g": 100,
+    "b": 0,
+    "hex": "#006400"
+  },
+  {
+    "name": "DarkOliveGreen",
+    "r": 85,
+    "g": 107,
+    "b": 47,
+    "hex": "#556B2F"
+  },
+  {
+    "name": "DarkSeaGreen",
+    "r": 143,
+    "g": 188,
+    "b": 143,
+    "hex": "#8FBC8F"
+  },
+  {
+    "name": "SeaGreen",
+    "r": 46,
+    "g": 139,
+    "b": 87,
+    "hex": "#2E8B57"
+  },
+  {
+    "name": "MediumSeaGreen",
+    "r": 60,
+    "g": 179,
+    "b": 113,
+    "hex": "#3CB371"
+  },
+  {
+    "name": "LightSeaGreen",
+    "r": 32,
+    "g": 178,
+    "b": 170,
+    "hex": "#20B2AA"
+  },
+  {
+    "name": "PaleGreen",
+    "r": 152,
+    "g": 251,
+    "b": 152,
+    "hex": "#98FB98"
+  },
+  {
+    "name": "SpringGreen",
+    "r": 0,
+    "g": 255,
+    "b": 127,
+    "hex": "#00FF7F"
+  },
+  {
+    "name": "LawnGreen",
+    "r": 124,
+    "g": 252,
+    "b": 0,
+    "hex": "#7CFC00"
+  },
+  {
+    "name": "Lime",
+    "r": 0,
+    "g": 255,
+    "b": 0,
+    "hex": "#00FF00"
+  },
+  {
+    "name": "Chartreuse",
+    "r": 127,
+    "g": 255,
+    "b": 0,
+    "hex": "#7FFF00"
+  },
+  {
+    "name": "MediumSpringGreen",
+    "r": 0,
+    "g": 250,
+    "b": 154,
+    "hex": "#00FA9A"
+  },
+  {
+    "name": "GreenYellow",
+    "r": 173,
+    "g": 255,
+    "b": 47,
+    "hex": "#ADFF2F"
+  },
+  {
+    "name": "LimeGreen",
+    "r": 50,
+    "g": 205,
+    "b": 50,
+    "hex": "#32CD32"
+  },
+  {
+    "name": "YellowGreen",
+    "r": 154,
+    "g": 205,
+    "b": 50,
+    "hex": "#9ACD32"
+  },
+  {
+    "name": "ForestGreen",
+    "r": 34,
+    "g": 139,
+    "b": 34,
+    "hex": "#228B22"
+  },
+  {
+    "name": "OliveDrab",
+    "r": 107,
+    "g": 142,
+    "b": 35,
+    "hex": "#6B8E23"
+  },
+  {
+    "name": "DarkKhaki",
+    "r": 189,
+    "g": 183,
+    "b": 107,
+    "hex": "#BDB76B"
+  },
+  {
+    "name": "PaleGoldenrod",
+    "r": 238,
+    "g": 232,
+    "b": 170,
+    "hex": "#EEE8AA"
+  },
+  {
+    "name": "LightGoldenrodYellow",
+    "r": 250,
+    "g": 250,
+    "b": 210,
+    "hex": "#FAFAD2"
+  },
+  {
+    "name": "LightYellow",
+    "r": 255,
+    "g": 255,
+    "b": 224,
+    "hex": "#FFFFE0"
+  },
+  {
+    "name": "Yellow",
+    "r": 255,
+    "g": 255,
+    "b": 0,
+    "hex": "#FFFF00"
+  },
+  {
+    "name": "Gold",
+    "r": 255,
+    "g": 215,
+    "b": 0,
+    "hex": "#FFD700"
+  },
+  {
+    "name": "LightGoldenrod",
+    "r": 238,
+    "g": 221,
+    "b": 130,
+    "hex": "#EEDD82"
+  },
+  {
+    "name": "Goldenrod",
+    "r": 218,
+    "g": 165,
+    "b": 32,
+    "hex": "#DAA520"
+  },
+  {
+    "name": "DarkGoldenrod",
+    "r": 184,
+    "g": 134,
+    "b": 11,
+    "hex": "#B8860B"
+  },
+  {
+    "name": "RosyBrown",
+    "r": 188,
+    "g": 143,
+    "b": 143,
+    "hex": "#BC8F8F"
+  },
+  {
+    "name": "IndianRed",
+    "r": 205,
+    "g": 92,
+    "b": 92,
+    "hex": "#CD5C5C"
+  },
+  {
+    "name": "SaddleBrown",
+    "r": 139,
+    "g": 69,
+    "b": 19,
+    "hex": "#8B4513"
+  },
+  {
+    "name": "Sienna",
+    "r": 160,
+    "g": 82,
+    "b": 45,
+    "hex": "#A0522D"
+  },
+  {
+    "name": "Peru",
+    "r": 205,
+    "g": 133,
+    "b": 63,
+    "hex": "#CD853F"
+  },
+  {
+    "name": "BurlyWood",
+    "r": 222,
+    "g": 184,
+    "b": 135,
+    "hex": "#DEB887"
+  },
+  {
+    "name": "Beige",
+    "r": 245,
+    "g": 245,
+    "b": 220,
+    "hex": "#F5F5DC"
+  },
+  {
+    "name": "Wheat",
+    "r": 245,
+    "g": 222,
+    "b": 179,
+    "hex": "#F5DEB3"
+  },
+  {
+    "name": "SandyBrown",
+    "r": 244,
+    "g": 164,
+    "b": 96,
+    "hex": "#F4A460"
+  },
+  {
+    "name": "Tan",
+    "r": 210,
+    "g": 180,
+    "b": 140,
+    "hex": "#D2B48C"
+  },
+  {
+    "name": "Chocolate",
+    "r": 210,
+    "g": 105,
+    "b": 30,
+    "hex": "#D2691E"
+  },
+  {
+    "name": "FireBrick",
+    "r": 178,
+    "g": 34,
+    "b": 34,
+    "hex": "#B22222"
+  },
+  {
+    "name": "Brown",
+    "r": 165,
+    "g": 42,
+    "b": 42,
+    "hex": "#A52A2A"
+  },
+  {
+    "name": "DarkSalmon",
+    "r": 233,
+    "g": 150,
+    "b": 122,
+    "hex": "#E9967A"
+  },
+  {
+    "name": "Salmon",
+    "r": 250,
+    "g": 128,
+    "b": 114,
+    "hex": "#FA8072"
+  },
+  {
+    "name": "LightSalmon",
+    "r": 255,
+    "g": 160,
+    "b": 122,
+    "hex": "#FFA07A"
+  },
+  {
+    "name": "Orange",
+    "r": 255,
+    "g": 165,
+    "b": 0,
+    "hex": "#FFA500"
+  },
+  {
+    "name": "DarkOrange",
+    "r": 255,
+    "g": 140,
+    "b": 0,
+    "hex": "#FF8C00"
+  },
+  {
+    "name": "Coral",
+    "r": 255,
+    "g": 127,
+    "b": 80,
+    "hex": "#FF7F50"
+  },
+  {
+    "name": "LightCoral",
+    "r": 240,
+    "g": 128,
+    "b": 128,
+    "hex": "#F08080"
+  },
+  {
+    "name": "Tomato",
+    "r": 255,
+    "g": 99,
+    "b": 71,
+    "hex": "#FF6347"
+  },
+  {
+    "name": "OrangeRed",
+    "r": 255,
+    "g": 69,
+    "b": 0,
+    "hex": "#FF4500"
+  },
+  {
+    "name": "Red",
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "hex": "#FF0000"
+  },
+  {
+    "name": "HotPink",
+    "r": 255,
+    "g": 105,
+    "b": 180,
+    "hex": "#FF69B4"
+  },
+  {
+    "name": "DeepPink",
+    "r": 255,
+    "g": 20,
+    "b": 147,
+    "hex": "#FF1493"
+  },
+  {
+    "name": "Pink",
+    "r": 255,
+    "g": 192,
+    "b": 203,
+    "hex": "#FFC0CB"
+  },
+  {
+    "name": "LightPink",
+    "r": 255,
+    "g": 182,
+    "b": 193,
+    "hex": "#FFB6C1"
+  },
+  {
+    "name": "PaleVioletRed",
+    "r": 219,
+    "g": 112,
+    "b": 147,
+    "hex": "#DB7093"
+  },
+  {
+    "name": "Maroon",
+    "r": 176,
+    "g": 48,
+    "b": 96,
+    "hex": "#B03060"
+  },
+  {
+    "name": "MediumVioletRed",
+    "r": 199,
+    "g": 21,
+    "b": 133,
+    "hex": "#C71585"
+  },
+  {
+    "name": "VioletRed",
+    "r": 208,
+    "g": 32,
+    "b": 144,
+    "hex": "#D02090"
+  },
+  {
+    "name": "Fuchsia",
+    "r": 255,
+    "g": 0,
+    "b": 255,
+    "hex": "#FF00FF"
+  },
+  {
+    "name": "Violet",
+    "r": 238,
+    "g": 130,
+    "b": 238,
+    "hex": "#EE82EE"
+  },
+  {
+    "name": "Plum",
+    "r": 221,
+    "g": 160,
+    "b": 221,
+    "hex": "#DDA0DD"
+  },
+  {
+    "name": "Orchid",
+    "r": 218,
+    "g": 112,
+    "b": 214,
+    "hex": "#DA70D6"
+  },
+  {
+    "name": "MediumOrchid",
+    "r": 186,
+    "g": 85,
+    "b": 211,
+    "hex": "#BA55D3"
+  },
+  {
+    "name": "DarkOrchid",
+    "r": 153,
+    "g": 50,
+    "b": 204,
+    "hex": "#9932CC"
+  },
+  {
+    "name": "DarkViolet",
+    "r": 148,
+    "g": 0,
+    "b": 211,
+    "hex": "#9400D3"
+  },
+  {
+    "name": "BlueViolet",
+    "r": 138,
+    "g": 43,
+    "b": 226,
+    "hex": "#8A2BE2"
+  },
+  {
+    "name": "Purple",
+    "r": 160,
+    "g": 32,
+    "b": 240,
+    "hex": "#A020F0"
+  },
+  {
+    "name": "MediumPurple",
+    "r": 147,
+    "g": 112,
+    "b": 219,
+    "hex": "#9370DB"
+  },
+  {
+    "name": "Thistle",
+    "r": 216,
+    "g": 191,
+    "b": 216,
+    "hex": "#D8BFD8"
+  },
+  {
+    "name": "Snow",
+    "r": 255,
+    "g": 250,
+    "b": 250,
+    "hex": "#FFFAFA"
+  },
+  {
+    "name": "Snow2",
+    "r": 238,
+    "g": 233,
+    "b": 233,
+    "hex": "#EEE9E9"
+  },
+  {
+    "name": "Snow3",
+    "r": 205,
+    "g": 201,
+    "b": 201,
+    "hex": "#CDC9C9"
+  },
+  {
+    "name": "Snow4",
+    "r": 139,
+    "g": 137,
+    "b": 137,
+    "hex": "#8B8989"
+  },
+  {
+    "name": "Seashell",
+    "r": 255,
+    "g": 245,
+    "b": 238,
+    "hex": "#FFF5EE"
+  },
+  {
+    "name": "Seashell2",
+    "r": 238,
+    "g": 229,
+    "b": 222,
+    "hex": "#EEE5DE"
+  },
+  {
+    "name": "Seashell3",
+    "r": 205,
+    "g": 197,
+    "b": 191,
+    "hex": "#CDC5BF"
+  },
+  {
+    "name": "Seashell4",
+    "r": 139,
+    "g": 134,
+    "b": 130,
+    "hex": "#8B8682"
+  },
+  {
+    "name": "AntiqueWhite1",
+    "r": 255,
+    "g": 239,
+    "b": 219,
+    "hex": "#FFEFDB"
+  },
+  {
+    "name": "AntiqueWhite2",
+    "r": 238,
+    "g": 223,
+    "b": 204,
+    "hex": "#EEDFCC"
+  },
+  {
+    "name": "AntiqueWhite3",
+    "r": 205,
+    "g": 192,
+    "b": 176,
+    "hex": "#CDC0B0"
+  },
+  {
+    "name": "AntiqueWhite4",
+    "r": 139,
+    "g": 131,
+    "b": 120,
+    "hex": "#8B8378"
+  },
+  {
+    "name": "Bisque",
+    "r": 255,
+    "g": 228,
+    "b": 196,
+    "hex": "#FFE4C4"
+  },
+  {
+    "name": "Bisque2",
+    "r": 238,
+    "g": 213,
+    "b": 183,
+    "hex": "#EED5B7"
+  },
+  {
+    "name": "Bisque3",
+    "r": 205,
+    "g": 183,
+    "b": 158,
+    "hex": "#CDB79E"
+  },
+  {
+    "name": "Bisque4",
+    "r": 139,
+    "g": 125,
+    "b": 107,
+    "hex": "#8B7D6B"
+  },
+  {
+    "name": "PeachPuff",
+    "r": 255,
+    "g": 218,
+    "b": 185,
+    "hex": "#FFDAB9"
+  },
+  {
+    "name": "PeachPuff2",
+    "r": 238,
+    "g": 203,
+    "b": 173,
+    "hex": "#EECBAD"
+  },
+  {
+    "name": "PeachPuff3",
+    "r": 205,
+    "g": 175,
+    "b": 149,
+    "hex": "#CDAF95"
+  },
+  {
+    "name": "PeachPuff4",
+    "r": 139,
+    "g": 119,
+    "b": 101,
+    "hex": "#8B7765"
+  },
+  {
+    "name": "NavajoWhite",
+    "r": 255,
+    "g": 222,
+    "b": 173,
+    "hex": "#FFDEAD"
+  },
+  {
+    "name": "NavajoWhite2",
+    "r": 238,
+    "g": 207,
+    "b": 161,
+    "hex": "#EECFA1"
+  },
+  {
+    "name": "NavajoWhite3",
+    "r": 205,
+    "g": 179,
+    "b": 139,
+    "hex": "#CDB38B"
+  },
+  {
+    "name": "NavajoWhite4",
+    "r": 139,
+    "g": 121,
+    "b": 94,
+    "hex": "#8B795E"
+  },
+  {
+    "name": "LemonChiffon",
+    "r": 255,
+    "g": 250,
+    "b": 205,
+    "hex": "#FFFACD"
+  },
+  {
+    "name": "LemonChiffon2",
+    "r": 238,
+    "g": 233,
+    "b": 191,
+    "hex": "#EEE9BF"
+  },
+  {
+    "name": "LemonChiffon3",
+    "r": 205,
+    "g": 201,
+    "b": 165,
+    "hex": "#CDC9A5"
+  },
+  {
+    "name": "LemonChiffon4",
+    "r": 139,
+    "g": 137,
+    "b": 112,
+    "hex": "#8B8970"
+  },
+  {
+    "name": "Cornsilk",
+    "r": 255,
+    "g": 248,
+    "b": 220,
+    "hex": "#FFF8DC"
+  },
+  {
+    "name": "Cornsilk2",
+    "r": 238,
+    "g": 232,
+    "b": 205,
+    "hex": "#EEE8CD"
+  },
+  {
+    "name": "Cornsilk3",
+    "r": 205,
+    "g": 200,
+    "b": 177,
+    "hex": "#CDC8B1"
+  },
+  {
+    "name": "Cornsilk4",
+    "r": 139,
+    "g": 136,
+    "b": 120,
+    "hex": "#8B8878"
+  },
+  {
+    "name": "Ivory",
+    "r": 255,
+    "g": 255,
+    "b": 240,
+    "hex": "#FFFFF0"
+  },
+  {
+    "name": "Ivory2",
+    "r": 238,
+    "g": 238,
+    "b": 224,
+    "hex": "#EEEEE0"
+  },
+  {
+    "name": "Ivory3",
+    "r": 205,
+    "g": 205,
+    "b": 193,
+    "hex": "#CDCDC1"
+  },
+  {
+    "name": "Ivory4",
+    "r": 139,
+    "g": 139,
+    "b": 131,
+    "hex": "#8B8B83"
+  },
+  {
+    "name": "Honeydew",
+    "r": 240,
+    "g": 255,
+    "b": 240,
+    "hex": "#F0FFF0"
+  },
+  {
+    "name": "Honeydew2",
+    "r": 224,
+    "g": 238,
+    "b": 224,
+    "hex": "#E0EEE0"
+  },
+  {
+    "name": "Honeydew3",
+    "r": 193,
+    "g": 205,
+    "b": 193,
+    "hex": "#C1CDC1"
+  },
+  {
+    "name": "Honeydew4",
+    "r": 131,
+    "g": 139,
+    "b": 131,
+    "hex": "#838B83"
+  },
+  {
+    "name": "LavenderBlush",
+    "r": 255,
+    "g": 240,
+    "b": 245,
+    "hex": "#FFF0F5"
+  },
+  {
+    "name": "LavenderBlush2",
+    "r": 238,
+    "g": 224,
+    "b": 229,
+    "hex": "#EEE0E5"
+  },
+  {
+    "name": "LavenderBlush3",
+    "r": 205,
+    "g": 193,
+    "b": 197,
+    "hex": "#CDC1C5"
+  },
+  {
+    "name": "LavenderBlush4",
+    "r": 139,
+    "g": 131,
+    "b": 134,
+    "hex": "#8B8386"
+  },
+  {
+    "name": "MistyRose",
+    "r": 255,
+    "g": 228,
+    "b": 225,
+    "hex": "#FFE4E1"
+  },
+  {
+    "name": "MistyRose2",
+    "r": 238,
+    "g": 213,
+    "b": 210,
+    "hex": "#EED5D2"
+  },
+  {
+    "name": "MistyRose3",
+    "r": 205,
+    "g": 183,
+    "b": 181,
+    "hex": "#CDB7B5"
+  },
+  {
+    "name": "MistyRose4",
+    "r": 139,
+    "g": 125,
+    "b": 123,
+    "hex": "#8B7D7B"
+  },
+  {
+    "name": "Azure",
+    "r": 240,
+    "g": 255,
+    "b": 255,
+    "hex": "#F0FFFF"
+  },
+  {
+    "name": "Azure2",
+    "r": 224,
+    "g": 238,
+    "b": 238,
+    "hex": "#E0EEEE"
+  },
+  {
+    "name": "Azure3",
+    "r": 193,
+    "g": 205,
+    "b": 205,
+    "hex": "#C1CDCD"
+  },
+  {
+    "name": "Azure4",
+    "r": 131,
+    "g": 139,
+    "b": 139,
+    "hex": "#838B8B"
+  },
+  {
+    "name": "SlateBlue1",
+    "r": 131,
+    "g": 111,
+    "b": 255,
+    "hex": "#836FFF"
+  },
+  {
+    "name": "SlateBlue2",
+    "r": 122,
+    "g": 103,
+    "b": 238,
+    "hex": "#7A67EE"
+  },
+  {
+    "name": "SlateBlue3",
+    "r": 105,
+    "g": 89,
+    "b": 205,
+    "hex": "#6959CD"
+  },
+  {
+    "name": "SlateBlue4",
+    "r": 71,
+    "g": 60,
+    "b": 139,
+    "hex": "#473C8B"
+  },
+  {
+    "name": "RoyalBlue1",
+    "r": 72,
+    "g": 118,
+    "b": 255,
+    "hex": "#4876FF"
+  },
+  {
+    "name": "RoyalBlue2",
+    "r": 67,
+    "g": 110,
+    "b": 238,
+    "hex": "#436EEE"
+  },
+  {
+    "name": "RoyalBlue3",
+    "r": 58,
+    "g": 95,
+    "b": 205,
+    "hex": "#3A5FCD"
+  },
+  {
+    "name": "RoyalBlue4",
+    "r": 39,
+    "g": 64,
+    "b": 139,
+    "hex": "#27408B"
+  },
+  {
+    "name": "Blue",
+    "r": 0,
+    "g": 0,
+    "b": 255,
+    "hex": "#0000FF"
+  },
+  {
+    "name": "Blue2",
+    "r": 0,
+    "g": 0,
+    "b": 238,
+    "hex": "#0000EE"
+  },
+  {
+    "name": "MediumBlue",
+    "r": 0,
+    "g": 0,
+    "b": 205,
+    "hex": "#0000CD"
+  },
+  {
+    "name": "DarkBlue",
+    "r": 0,
+    "g": 0,
+    "b": 139,
+    "hex": "#00008B"
+  },
+  {
+    "name": "DodgerBlue",
+    "r": 30,
+    "g": 144,
+    "b": 255,
+    "hex": "#1E90FF"
+  },
+  {
+    "name": "DodgerBlue2",
+    "r": 28,
+    "g": 134,
+    "b": 238,
+    "hex": "#1C86EE"
+  },
+  {
+    "name": "DodgerBlue3",
+    "r": 24,
+    "g": 116,
+    "b": 205,
+    "hex": "#1874CD"
+  },
+  {
+    "name": "DodgerBlue4",
+    "r": 16,
+    "g": 78,
+    "b": 139,
+    "hex": "#104E8B"
+  },
+  {
+    "name": "SteelBlue1",
+    "r": 99,
+    "g": 184,
+    "b": 255,
+    "hex": "#63B8FF"
+  },
+  {
+    "name": "SteelBlue2",
+    "r": 92,
+    "g": 172,
+    "b": 238,
+    "hex": "#5CACEE"
+  },
+  {
+    "name": "SteelBlue3",
+    "r": 79,
+    "g": 148,
+    "b": 205,
+    "hex": "#4F94CD"
+  },
+  {
+    "name": "SteelBlue4",
+    "r": 54,
+    "g": 100,
+    "b": 139,
+    "hex": "#36648B"
+  },
+  {
+    "name": "DeepSkyBlue",
+    "r": 0,
+    "g": 191,
+    "b": 255,
+    "hex": "#00BFFF"
+  },
+  {
+    "name": "DeepSkyBlue2",
+    "r": 0,
+    "g": 178,
+    "b": 238,
+    "hex": "#00B2EE"
+  },
+  {
+    "name": "DeepSkyBlue3",
+    "r": 0,
+    "g": 154,
+    "b": 205,
+    "hex": "#009ACD"
+  },
+  {
+    "name": "DeepSkyBlue4",
+    "r": 0,
+    "g": 104,
+    "b": 139,
+    "hex": "#00688B"
+  },
+  {
+    "name": "SkyBlue1",
+    "r": 135,
+    "g": 206,
+    "b": 255,
+    "hex": "#87CEFF"
+  },
+  {
+    "name": "SkyBlue2",
+    "r": 126,
+    "g": 192,
+    "b": 238,
+    "hex": "#7EC0EE"
+  },
+  {
+    "name": "SkyBlue3",
+    "r": 108,
+    "g": 166,
+    "b": 205,
+    "hex": "#6CA6CD"
+  },
+  {
+    "name": "SkyBlue4",
+    "r": 74,
+    "g": 112,
+    "b": 139,
+    "hex": "#4A708B"
+  },
+  {
+    "name": "LightSkyBlue1",
+    "r": 176,
+    "g": 226,
+    "b": 255,
+    "hex": "#B0E2FF"
+  },
+  {
+    "name": "LightSkyBlue2",
+    "r": 164,
+    "g": 211,
+    "b": 238,
+    "hex": "#A4D3EE"
+  },
+  {
+    "name": "LightSkyBlue3",
+    "r": 141,
+    "g": 182,
+    "b": 205,
+    "hex": "#8DB6CD"
+  },
+  {
+    "name": "LightSkyBlue4",
+    "r": 96,
+    "g": 123,
+    "b": 139,
+    "hex": "#607B8B"
+  },
+  {
+    "name": "SlateGray1",
+    "r": 198,
+    "g": 226,
+    "b": 255,
+    "hex": "#C6E2FF"
+  },
+  {
+    "name": "SlateGray2",
+    "r": 185,
+    "g": 211,
+    "b": 238,
+    "hex": "#B9D3EE"
+  },
+  {
+    "name": "SlateGray3",
+    "r": 159,
+    "g": 182,
+    "b": 205,
+    "hex": "#9FB6CD"
+  },
+  {
+    "name": "SlateGray4",
+    "r": 108,
+    "g": 123,
+    "b": 139,
+    "hex": "#6C7B8B"
+  },
+  {
+    "name": "LightSteelBlue1",
+    "r": 202,
+    "g": 225,
+    "b": 255,
+    "hex": "#CAE1FF"
+  },
+  {
+    "name": "LightSteelBlue2",
+    "r": 188,
+    "g": 210,
+    "b": 238,
+    "hex": "#BCD2EE"
+  },
+  {
+    "name": "LightSteelBlue3",
+    "r": 162,
+    "g": 181,
+    "b": 205,
+    "hex": "#A2B5CD"
+  },
+  {
+    "name": "LightSteelBlue4",
+    "r": 110,
+    "g": 123,
+    "b": 139,
+    "hex": "#6E7B8B"
+  },
+  {
+    "name": "LightBlue1",
+    "r": 191,
+    "g": 239,
+    "b": 255,
+    "hex": "#BFEFFF"
+  },
+  {
+    "name": "LightBlue2",
+    "r": 178,
+    "g": 223,
+    "b": 238,
+    "hex": "#B2DFEE"
+  },
+  {
+    "name": "LightBlue3",
+    "r": 154,
+    "g": 192,
+    "b": 205,
+    "hex": "#9AC0CD"
+  },
+  {
+    "name": "LightBlue4",
+    "r": 104,
+    "g": 131,
+    "b": 139,
+    "hex": "#68838B"
+  },
+  {
+    "name": "LightCyan",
+    "r": 224,
+    "g": 255,
+    "b": 255,
+    "hex": "#E0FFFF"
+  },
+  {
+    "name": "LightCyan2",
+    "r": 209,
+    "g": 238,
+    "b": 238,
+    "hex": "#D1EEEE"
+  },
+  {
+    "name": "LightCyan3",
+    "r": 180,
+    "g": 205,
+    "b": 205,
+    "hex": "#B4CDCD"
+  },
+  {
+    "name": "LightCyan4",
+    "r": 122,
+    "g": 139,
+    "b": 139,
+    "hex": "#7A8B8B"
+  },
+  {
+    "name": "PaleTurquoise1",
+    "r": 187,
+    "g": 255,
+    "b": 255,
+    "hex": "#BBFFFF"
+  },
+  {
+    "name": "PaleTurquoise2",
+    "r": 174,
+    "g": 238,
+    "b": 238,
+    "hex": "#AEEEEE"
+  },
+  {
+    "name": "PaleTurquoise3",
+    "r": 150,
+    "g": 205,
+    "b": 205,
+    "hex": "#96CDCD"
+  },
+  {
+    "name": "PaleTurquoise4",
+    "r": 102,
+    "g": 139,
+    "b": 139,
+    "hex": "#668B8B"
+  },
+  {
+    "name": "CadetBlue1",
+    "r": 152,
+    "g": 245,
+    "b": 255,
+    "hex": "#98F5FF"
+  },
+  {
+    "name": "CadetBlue2",
+    "r": 142,
+    "g": 229,
+    "b": 238,
+    "hex": "#8EE5EE"
+  },
+  {
+    "name": "CadetBlue3",
+    "r": 122,
+    "g": 197,
+    "b": 205,
+    "hex": "#7AC5CD"
+  },
+  {
+    "name": "CadetBlue4",
+    "r": 83,
+    "g": 134,
+    "b": 139,
+    "hex": "#53868B"
+  },
+  {
+    "name": "Turquoise1",
+    "r": 0,
+    "g": 245,
+    "b": 255,
+    "hex": "#00F5FF"
+  },
+  {
+    "name": "Turquoise2",
+    "r": 0,
+    "g": 229,
+    "b": 238,
+    "hex": "#00E5EE"
+  },
+  {
+    "name": "Turquoise3",
+    "r": 0,
+    "g": 197,
+    "b": 205,
+    "hex": "#00C5CD"
+  },
+  {
+    "name": "Turquoise4",
+    "r": 0,
+    "g": 134,
+    "b": 139,
+    "hex": "#00868B"
+  },
+  {
+    "name": "Aqua",
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "hex": "#00FFFF"
+  },
+  {
+    "name": "Cyan2",
+    "r": 0,
+    "g": 238,
+    "b": 238,
+    "hex": "#00EEEE"
+  },
+  {
+    "name": "Cyan3",
+    "r": 0,
+    "g": 205,
+    "b": 205,
+    "hex": "#00CDCD"
+  },
+  {
+    "name": "DarkCyan",
+    "r": 0,
+    "g": 139,
+    "b": 139,
+    "hex": "#008B8B"
+  },
+  {
+    "name": "DarkSlateGray1",
+    "r": 151,
+    "g": 255,
+    "b": 255,
+    "hex": "#97FFFF"
+  },
+  {
+    "name": "DarkSlateGray2",
+    "r": 141,
+    "g": 238,
+    "b": 238,
+    "hex": "#8DEEEE"
+  },
+  {
+    "name": "DarkSlateGray3",
+    "r": 121,
+    "g": 205,
+    "b": 205,
+    "hex": "#79CDCD"
+  },
+  {
+    "name": "DarkSlateGray4",
+    "r": 82,
+    "g": 139,
+    "b": 139,
+    "hex": "#528B8B"
+  },
+  {
+    "name": "Aquamarine",
+    "r": 127,
+    "g": 255,
+    "b": 212,
+    "hex": "#7FFFD4"
+  },
+  {
+    "name": "Aquamarine2",
+    "r": 118,
+    "g": 238,
+    "b": 198,
+    "hex": "#76EEC6"
+  },
+  {
+    "name": "MediumAquamarine",
+    "r": 102,
+    "g": 205,
+    "b": 170,
+    "hex": "#66CDAA"
+  },
+  {
+    "name": "Aquamarine4",
+    "r": 69,
+    "g": 139,
+    "b": 116,
+    "hex": "#458B74"
+  },
+  {
+    "name": "DarkSeaGreen1",
+    "r": 193,
+    "g": 255,
+    "b": 193,
+    "hex": "#C1FFC1"
+  },
+  {
+    "name": "DarkSeaGreen2",
+    "r": 180,
+    "g": 238,
+    "b": 180,
+    "hex": "#B4EEB4"
+  },
+  {
+    "name": "DarkSeaGreen3",
+    "r": 155,
+    "g": 205,
+    "b": 155,
+    "hex": "#9BCD9B"
+  },
+  {
+    "name": "DarkSeaGreen4",
+    "r": 105,
+    "g": 139,
+    "b": 105,
+    "hex": "#698B69"
+  },
+  {
+    "name": "SeaGreen1",
+    "r": 84,
+    "g": 255,
+    "b": 159,
+    "hex": "#54FF9F"
+  },
+  {
+    "name": "SeaGreen2",
+    "r": 78,
+    "g": 238,
+    "b": 148,
+    "hex": "#4EEE94"
+  },
+  {
+    "name": "SeaGreen3",
+    "r": 67,
+    "g": 205,
+    "b": 128,
+    "hex": "#43CD80"
+  },
+  {
+    "name": "SeaGreen",
+    "r": 46,
+    "g": 139,
+    "b": 87,
+    "hex": "#2E8B57"
+  },
+  {
+    "name": "PaleGreen1",
+    "r": 154,
+    "g": 255,
+    "b": 154,
+    "hex": "#9AFF9A"
+  },
+  {
+    "name": "LightGreen",
+    "r": 144,
+    "g": 238,
+    "b": 144,
+    "hex": "#90EE90"
+  },
+  {
+    "name": "PaleGreen3",
+    "r": 124,
+    "g": 205,
+    "b": 124,
+    "hex": "#7CCD7C"
+  },
+  {
+    "name": "PaleGreen4",
+    "r": 84,
+    "g": 139,
+    "b": 84,
+    "hex": "#548B54"
+  },
+  {
+    "name": "SpringGreen",
+    "r": 0,
+    "g": 255,
+    "b": 127,
+    "hex": "#00FF7F"
+  },
+  {
+    "name": "SpringGreen2",
+    "r": 0,
+    "g": 238,
+    "b": 118,
+    "hex": "#00EE76"
+  },
+  {
+    "name": "SpringGreen3",
+    "r": 0,
+    "g": 205,
+    "b": 102,
+    "hex": "#00CD66"
+  },
+  {
+    "name": "SpringGreen4",
+    "r": 0,
+    "g": 139,
+    "b": 69,
+    "hex": "#008B45"
+  },
+  {
+    "name": "Lime",
+    "r": 0,
+    "g": 255,
+    "b": 0,
+    "hex": "#00FF00"
+  },
+  {
+    "name": "Green2",
+    "r": 0,
+    "g": 238,
+    "b": 0,
+    "hex": "#00EE00"
+  },
+  {
+    "name": "Green3",
+    "r": 0,
+    "g": 205,
+    "b": 0,
+    "hex": "#00CD00"
+  },
+  {
+    "name": "Green4",
+    "r": 0,
+    "g": 139,
+    "b": 0,
+    "hex": "#008B00"
+  },
+  {
+    "name": "Chartreuse",
+    "r": 127,
+    "g": 255,
+    "b": 0,
+    "hex": "#7FFF00"
+  },
+  {
+    "name": "Chartreuse2",
+    "r": 118,
+    "g": 238,
+    "b": 0,
+    "hex": "#76EE00"
+  },
+  {
+    "name": "Chartreuse3",
+    "r": 102,
+    "g": 205,
+    "b": 0,
+    "hex": "#66CD00"
+  },
+  {
+    "name": "Chartreuse4",
+    "r": 69,
+    "g": 139,
+    "b": 0,
+    "hex": "#458B00"
+  },
+  {
+    "name": "OliveDrab1",
+    "r": 192,
+    "g": 255,
+    "b": 62,
+    "hex": "#C0FF3E"
+  },
+  {
+    "name": "OliveDrab2",
+    "r": 179,
+    "g": 238,
+    "b": 58,
+    "hex": "#B3EE3A"
+  },
+  {
+    "name": "YellowGreen",
+    "r": 154,
+    "g": 205,
+    "b": 50,
+    "hex": "#9ACD32"
+  },
+  {
+    "name": "OliveDrab4",
+    "r": 105,
+    "g": 139,
+    "b": 34,
+    "hex": "#698B22"
+  },
+  {
+    "name": "DarkOliveGreen1",
+    "r": 202,
+    "g": 255,
+    "b": 112,
+    "hex": "#CAFF70"
+  },
+  {
+    "name": "DarkOliveGreen2",
+    "r": 188,
+    "g": 238,
+    "b": 104,
+    "hex": "#BCEE68"
+  },
+  {
+    "name": "DarkOliveGreen3",
+    "r": 162,
+    "g": 205,
+    "b": 90,
+    "hex": "#A2CD5A"
+  },
+  {
+    "name": "DarkOliveGreen4",
+    "r": 110,
+    "g": 139,
+    "b": 61,
+    "hex": "#6E8B3D"
+  },
+  {
+    "name": "Khaki1",
+    "r": 255,
+    "g": 246,
+    "b": 143,
+    "hex": "#FFF68F"
+  },
+  {
+    "name": "Khaki2",
+    "r": 238,
+    "g": 230,
+    "b": 133,
+    "hex": "#EEE685"
+  },
+  {
+    "name": "Khaki3",
+    "r": 205,
+    "g": 198,
+    "b": 115,
+    "hex": "#CDC673"
+  },
+  {
+    "name": "Khaki4",
+    "r": 139,
+    "g": 134,
+    "b": 78,
+    "hex": "#8B864E"
+  },
+  {
+    "name": "LightGoldenrod1",
+    "r": 255,
+    "g": 236,
+    "b": 139,
+    "hex": "#FFEC8B"
+  },
+  {
+    "name": "LightGoldenrod2",
+    "r": 238,
+    "g": 220,
+    "b": 130,
+    "hex": "#EEDC82"
+  },
+  {
+    "name": "LightGoldenrod3",
+    "r": 205,
+    "g": 190,
+    "b": 112,
+    "hex": "#CDBE70"
+  },
+  {
+    "name": "LightGoldenrod4",
+    "r": 139,
+    "g": 129,
+    "b": 76,
+    "hex": "#8B814C"
+  },
+  {
+    "name": "LightYellow",
+    "r": 255,
+    "g": 255,
+    "b": 224,
+    "hex": "#FFFFE0"
+  },
+  {
+    "name": "LightYellow2",
+    "r": 238,
+    "g": 238,
+    "b": 209,
+    "hex": "#EEEED1"
+  },
+  {
+    "name": "LightYellow3",
+    "r": 205,
+    "g": 205,
+    "b": 180,
+    "hex": "#CDCDB4"
+  },
+  {
+    "name": "LightYellow4",
+    "r": 139,
+    "g": 139,
+    "b": 122,
+    "hex": "#8B8B7A"
+  },
+  {
+    "name": "Yellow",
+    "r": 255,
+    "g": 255,
+    "b": 0,
+    "hex": "#FFFF00"
+  },
+  {
+    "name": "Yellow2",
+    "r": 238,
+    "g": 238,
+    "b": 0,
+    "hex": "#EEEE00"
+  },
+  {
+    "name": "Yellow3",
+    "r": 205,
+    "g": 205,
+    "b": 0,
+    "hex": "#CDCD00"
+  },
+  {
+    "name": "Yellow4",
+    "r": 139,
+    "g": 139,
+    "b": 0,
+    "hex": "#8B8B00"
+  },
+  {
+    "name": "Gold",
+    "r": 255,
+    "g": 215,
+    "b": 0,
+    "hex": "#FFD700"
+  },
+  {
+    "name": "Gold2",
+    "r": 238,
+    "g": 201,
+    "b": 0,
+    "hex": "#EEC900"
+  },
+  {
+    "name": "Gold3",
+    "r": 205,
+    "g": 173,
+    "b": 0,
+    "hex": "#CDAD00"
+  },
+  {
+    "name": "Gold4",
+    "r": 139,
+    "g": 117,
+    "b": 0,
+    "hex": "#8B7500"
+  },
+  {
+    "name": "Goldenrod1",
+    "r": 255,
+    "g": 193,
+    "b": 37,
+    "hex": "#FFC125"
+  },
+  {
+    "name": "Goldenrod2",
+    "r": 238,
+    "g": 180,
+    "b": 34,
+    "hex": "#EEB422"
+  },
+  {
+    "name": "Goldenrod3",
+    "r": 205,
+    "g": 155,
+    "b": 29,
+    "hex": "#CD9B1D"
+  },
+  {
+    "name": "Goldenrod4",
+    "r": 139,
+    "g": 105,
+    "b": 20,
+    "hex": "#8B6914"
+  },
+  {
+    "name": "DarkGoldenrod1",
+    "r": 255,
+    "g": 185,
+    "b": 15,
+    "hex": "#FFB90F"
+  },
+  {
+    "name": "DarkGoldenrod2",
+    "r": 238,
+    "g": 173,
+    "b": 14,
+    "hex": "#EEAD0E"
+  },
+  {
+    "name": "DarkGoldenrod3",
+    "r": 205,
+    "g": 149,
+    "b": 12,
+    "hex": "#CD950C"
+  },
+  {
+    "name": "DarkGoldenrod4",
+    "r": 139,
+    "g": 101,
+    "b": 8,
+    "hex": "#8B658B"
+  },
+  {
+    "name": "RosyBrown1",
+    "r": 255,
+    "g": 193,
+    "b": 193,
+    "hex": "#FFC1C1"
+  },
+  {
+    "name": "RosyBrown2",
+    "r": 238,
+    "g": 180,
+    "b": 180,
+    "hex": "#EEB4B4"
+  },
+  {
+    "name": "RosyBrown3",
+    "r": 205,
+    "g": 155,
+    "b": 155,
+    "hex": "#CD9B9B"
+  },
+  {
+    "name": "RosyBrown4",
+    "r": 139,
+    "g": 105,
+    "b": 105,
+    "hex": "#8B6969"
+  },
+  {
+    "name": "IndianRed1",
+    "r": 255,
+    "g": 106,
+    "b": 106,
+    "hex": "#FF6A6A"
+  },
+  {
+    "name": "IndianRed2",
+    "r": 238,
+    "g": 99,
+    "b": 99,
+    "hex": "#EE6363"
+  },
+  {
+    "name": "IndianRed3",
+    "r": 205,
+    "g": 85,
+    "b": 85,
+    "hex": "#CD5555"
+  },
+  {
+    "name": "IndianRed4",
+    "r": 139,
+    "g": 58,
+    "b": 58,
+    "hex": "#8B3A3A"
+  },
+  {
+    "name": "Sienna1",
+    "r": 255,
+    "g": 130,
+    "b": 71,
+    "hex": "#FF8247"
+  },
+  {
+    "name": "Sienna2",
+    "r": 238,
+    "g": 121,
+    "b": 66,
+    "hex": "#EE7942"
+  },
+  {
+    "name": "Sienna3",
+    "r": 205,
+    "g": 104,
+    "b": 57,
+    "hex": "#CD6839"
+  },
+  {
+    "name": "Sienna4",
+    "r": 139,
+    "g": 71,
+    "b": 38,
+    "hex": "#8B4726"
+  },
+  {
+    "name": "Burlywood1",
+    "r": 255,
+    "g": 211,
+    "b": 155,
+    "hex": "#FFD39B"
+  },
+  {
+    "name": "Burlywood2",
+    "r": 238,
+    "g": 197,
+    "b": 145,
+    "hex": "#EEC591"
+  },
+  {
+    "name": "Burlywood3",
+    "r": 205,
+    "g": 170,
+    "b": 125,
+    "hex": "#CDAA7D"
+  },
+  {
+    "name": "Burlywood4",
+    "r": 139,
+    "g": 115,
+    "b": 85,
+    "hex": "#8B7355"
+  },
+  {
+    "name": "Wheat1",
+    "r": 255,
+    "g": 231,
+    "b": 186,
+    "hex": "#FFE7BA"
+  },
+  {
+    "name": "Wheat2",
+    "r": 238,
+    "g": 216,
+    "b": 174,
+    "hex": "#EED8AE"
+  },
+  {
+    "name": "Wheat3",
+    "r": 205,
+    "g": 186,
+    "b": 150,
+    "hex": "#CDBA96"
+  },
+  {
+    "name": "Wheat4",
+    "r": 139,
+    "g": 126,
+    "b": 102,
+    "hex": "#8B7E66"
+  },
+  {
+    "name": "Tan1",
+    "r": 255,
+    "g": 165,
+    "b": 79,
+    "hex": "#FFA54F"
+  },
+  {
+    "name": "Tan2",
+    "r": 238,
+    "g": 154,
+    "b": 73,
+    "hex": "#EE9A49"
+  },
+  {
+    "name": "Peru",
+    "r": 205,
+    "g": 133,
+    "b": 63,
+    "hex": "#CD853F"
+  },
+  {
+    "name": "Tan4",
+    "r": 139,
+    "g": 90,
+    "b": 43,
+    "hex": "#8B5A2B"
+  },
+  {
+    "name": "Chocolate1",
+    "r": 255,
+    "g": 127,
+    "b": 36,
+    "hex": "#FF7F24"
+  },
+  {
+    "name": "Chocolate2",
+    "r": 238,
+    "g": 118,
+    "b": 33,
+    "hex": "#EE7621"
+  },
+  {
+    "name": "Chocolate3",
+    "r": 205,
+    "g": 102,
+    "b": 29,
+    "hex": "#CD661D"
+  },
+  {
+    "name": "SaddleBrown",
+    "r": 139,
+    "g": 69,
+    "b": 19,
+    "hex": "#8B4513"
+  },
+  {
+    "name": "Firebrick1",
+    "r": 255,
+    "g": 48,
+    "b": 48,
+    "hex": "#FF3030"
+  },
+  {
+    "name": "Firebrick2",
+    "r": 238,
+    "g": 44,
+    "b": 44,
+    "hex": "#EE2C2C"
+  },
+  {
+    "name": "Firebrick3",
+    "r": 205,
+    "g": 38,
+    "b": 38,
+    "hex": "#CD2626"
+  },
+  {
+    "name": "Firebrick4",
+    "r": 139,
+    "g": 26,
+    "b": 26,
+    "hex": "#8B1A1A"
+  },
+  {
+    "name": "Brown1",
+    "r": 255,
+    "g": 64,
+    "b": 64,
+    "hex": "#FF4040"
+  },
+  {
+    "name": "Brown2",
+    "r": 238,
+    "g": 59,
+    "b": 59,
+    "hex": "#EE3B3B"
+  },
+  {
+    "name": "Brown3",
+    "r": 205,
+    "g": 51,
+    "b": 51,
+    "hex": "#CD3333"
+  },
+  {
+    "name": "Brown4",
+    "r": 139,
+    "g": 35,
+    "b": 35,
+    "hex": "#8B2323"
+  },
+  {
+    "name": "Salmon1",
+    "r": 255,
+    "g": 140,
+    "b": 105,
+    "hex": "#FF8C69"
+  },
+  {
+    "name": "Salmon2",
+    "r": 238,
+    "g": 130,
+    "b": 98,
+    "hex": "#EE8262"
+  },
+  {
+    "name": "Salmon3",
+    "r": 205,
+    "g": 112,
+    "b": 84,
+    "hex": "#CD7054"
+  },
+  {
+    "name": "Salmon4",
+    "r": 139,
+    "g": 76,
+    "b": 57,
+    "hex": "#8B4C39"
+  },
+  {
+    "name": "LightSalmon",
+    "r": 255,
+    "g": 160,
+    "b": 122,
+    "hex": "#FFA07A"
+  },
+  {
+    "name": "LightSalmon2",
+    "r": 238,
+    "g": 149,
+    "b": 114,
+    "hex": "#EE9572"
+  },
+  {
+    "name": "LightSalmon3",
+    "r": 205,
+    "g": 129,
+    "b": 98,
+    "hex": "#CD8162"
+  },
+  {
+    "name": "LightSalmon4",
+    "r": 139,
+    "g": 87,
+    "b": 66,
+    "hex": "#8B5742"
+  },
+  {
+    "name": "Orange",
+    "r": 255,
+    "g": 165,
+    "b": 0,
+    "hex": "#FFA500"
+  },
+  {
+    "name": "Orange2",
+    "r": 238,
+    "g": 154,
+    "b": 0,
+    "hex": "#EE9A00"
+  },
+  {
+    "name": "Orange3",
+    "r": 205,
+    "g": 133,
+    "b": 0,
+    "hex": "#CD8500"
+  },
+  {
+    "name": "Orange4",
+    "r": 139,
+    "g": 90,
+    "b": 0,
+    "hex": "#8B5A00"
+  },
+  {
+    "name": "DarkOrange1",
+    "r": 255,
+    "g": 127,
+    "b": 0,
+    "hex": "#FF7F00"
+  },
+  {
+    "name": "DarkOrange2",
+    "r": 238,
+    "g": 118,
+    "b": 0,
+    "hex": "#EE7600"
+  },
+  {
+    "name": "DarkOrange3",
+    "r": 205,
+    "g": 102,
+    "b": 0,
+    "hex": "#CD6600"
+  },
+  {
+    "name": "DarkOrange4",
+    "r": 139,
+    "g": 69,
+    "b": 0,
+    "hex": "#8B4500"
+  },
+  {
+    "name": "Coral1",
+    "r": 255,
+    "g": 114,
+    "b": 86,
+    "hex": "#FF7256"
+  },
+  {
+    "name": "Coral2",
+    "r": 238,
+    "g": 106,
+    "b": 80,
+    "hex": "#EE6A50"
+  },
+  {
+    "name": "Coral3",
+    "r": 205,
+    "g": 91,
+    "b": 69,
+    "hex": "#CD5B45"
+  },
+  {
+    "name": "Coral4",
+    "r": 139,
+    "g": 62,
+    "b": 47,
+    "hex": "#8B3E2F"
+  },
+  {
+    "name": "Tomato",
+    "r": 255,
+    "g": 99,
+    "b": 71,
+    "hex": "#FF6347"
+  },
+  {
+    "name": "Tomato2",
+    "r": 238,
+    "g": 92,
+    "b": 66,
+    "hex": "#EE5C42"
+  },
+  {
+    "name": "Tomato3",
+    "r": 205,
+    "g": 79,
+    "b": 57,
+    "hex": "#CD4F39"
+  },
+  {
+    "name": "Tomato4",
+    "r": 139,
+    "g": 54,
+    "b": 38,
+    "hex": "#8B3626"
+  },
+  {
+    "name": "OrangeRed",
+    "r": 255,
+    "g": 69,
+    "b": 0,
+    "hex": "#FF4500"
+  },
+  {
+    "name": "OrangeRed2",
+    "r": 238,
+    "g": 64,
+    "b": 0,
+    "hex": "#EE4000"
+  },
+  {
+    "name": "OrangeRed3",
+    "r": 205,
+    "g": 55,
+    "b": 0,
+    "hex": "#CD3700"
+  },
+  {
+    "name": "OrangeRed4",
+    "r": 139,
+    "g": 37,
+    "b": 0,
+    "hex": "#8B2500"
+  },
+  {
+    "name": "Red",
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "hex": "#FF0000"
+  },
+  {
+    "name": "Red2",
+    "r": 238,
+    "g": 0,
+    "b": 0,
+    "hex": "#EE0000"
+  },
+  {
+    "name": "Red3",
+    "r": 205,
+    "g": 0,
+    "b": 0,
+    "hex": "#CD0000"
+  },
+  {
+    "name": "DarkRed",
+    "r": 139,
+    "g": 0,
+    "b": 0,
+    "hex": "#8B0000"
+  },
+  {
+    "name": "DeepPink",
+    "r": 255,
+    "g": 20,
+    "b": 147,
+    "hex": "#FF1493"
+  },
+  {
+    "name": "DeepPink2",
+    "r": 238,
+    "g": 18,
+    "b": 137,
+    "hex": "#EE1289"
+  },
+  {
+    "name": "DeepPink3",
+    "r": 205,
+    "g": 16,
+    "b": 118,
+    "hex": "#CD1076"
+  },
+  {
+    "name": "DeepPink4",
+    "r": 139,
+    "g": 10,
+    "b": 80,
+    "hex": "#8B0A50"
+  },
+  {
+    "name": "HotPink1",
+    "r": 255,
+    "g": 110,
+    "b": 180,
+    "hex": "#FF6EB4"
+  },
+  {
+    "name": "HotPink2",
+    "r": 238,
+    "g": 106,
+    "b": 167,
+    "hex": "#EE6AA7"
+  },
+  {
+    "name": "HotPink3",
+    "r": 205,
+    "g": 96,
+    "b": 144,
+    "hex": "#CD6090"
+  },
+  {
+    "name": "HotPink4",
+    "r": 139,
+    "g": 58,
+    "b": 98,
+    "hex": "#8B3A62"
+  },
+  {
+    "name": "Pink1",
+    "r": 255,
+    "g": 181,
+    "b": 197,
+    "hex": "#FFB5C5"
+  },
+  {
+    "name": "Pink2",
+    "r": 238,
+    "g": 169,
+    "b": 184,
+    "hex": "#EEA9B8"
+  },
+  {
+    "name": "Pink3",
+    "r": 205,
+    "g": 145,
+    "b": 158,
+    "hex": "#CD919E"
+  },
+  {
+    "name": "Pink4",
+    "r": 139,
+    "g": 99,
+    "b": 108,
+    "hex": "#8B636C"
+  },
+  {
+    "name": "LightPink1",
+    "r": 255,
+    "g": 174,
+    "b": 185,
+    "hex": "#FFAEB9"
+  },
+  {
+    "name": "LightPink2",
+    "r": 238,
+    "g": 162,
+    "b": 173,
+    "hex": "#EEA2AD"
+  },
+  {
+    "name": "LightPink3",
+    "r": 205,
+    "g": 140,
+    "b": 149,
+    "hex": "#CD8C95"
+  },
+  {
+    "name": "LightPink4",
+    "r": 139,
+    "g": 95,
+    "b": 101,
+    "hex": "#8B5F65"
+  },
+  {
+    "name": "PaleVioletRed1",
+    "r": 255,
+    "g": 130,
+    "b": 171,
+    "hex": "#FF82AB"
+  },
+  {
+    "name": "PaleVioletRed2",
+    "r": 238,
+    "g": 121,
+    "b": 159,
+    "hex": "#EE799F"
+  },
+  {
+    "name": "PaleVioletRed3",
+    "r": 205,
+    "g": 104,
+    "b": 137,
+    "hex": "#CD6889"
+  },
+  {
+    "name": "PaleVioletRed4",
+    "r": 139,
+    "g": 71,
+    "b": 93,
+    "hex": "#8B475D"
+  },
+  {
+    "name": "Maroon1",
+    "r": 255,
+    "g": 52,
+    "b": 179,
+    "hex": "#FF34B3"
+  },
+  {
+    "name": "Maroon2",
+    "r": 238,
+    "g": 48,
+    "b": 167,
+    "hex": "#EE30A7"
+  },
+  {
+    "name": "Maroon3",
+    "r": 205,
+    "g": 41,
+    "b": 144,
+    "hex": "#CD2990"
+  },
+  {
+    "name": "Maroon4",
+    "r": 139,
+    "g": 28,
+    "b": 98,
+    "hex": "#8B1C62"
+  },
+  {
+    "name": "VioletRed1",
+    "r": 255,
+    "g": 62,
+    "b": 150,
+    "hex": "#FF3E96"
+  },
+  {
+    "name": "VioletRed2",
+    "r": 238,
+    "g": 58,
+    "b": 140,
+    "hex": "#EE3A8C"
+  },
+  {
+    "name": "VioletRed3",
+    "r": 205,
+    "g": 50,
+    "b": 120,
+    "hex": "#CD3278"
+  },
+  {
+    "name": "VioletRed4",
+    "r": 139,
+    "g": 34,
+    "b": 82,
+    "hex": "#8B2252"
+  },
+  {
+    "name": "Fuchsia",
+    "r": 255,
+    "g": 0,
+    "b": 255,
+    "hex": "#FF00FF"
+  },
+  {
+    "name": "Magenta2",
+    "r": 238,
+    "g": 0,
+    "b": 238,
+    "hex": "#EE00EE"
+  },
+  {
+    "name": "Magenta3",
+    "r": 205,
+    "g": 0,
+    "b": 205,
+    "hex": "#CD00CD"
+  },
+  {
+    "name": "DarkMagenta",
+    "r": 139,
+    "g": 0,
+    "b": 139,
+    "hex": "#8B008B"
+  },
+  {
+    "name": "Orchid1",
+    "r": 255,
+    "g": 131,
+    "b": 250,
+    "hex": "#FF83FA"
+  },
+  {
+    "name": "Orchid2",
+    "r": 238,
+    "g": 122,
+    "b": 233,
+    "hex": "#EE7AE9"
+  },
+  {
+    "name": "Orchid3",
+    "r": 205,
+    "g": 105,
+    "b": 201,
+    "hex": "#CD69C9"
+  },
+  {
+    "name": "Orchid4",
+    "r": 139,
+    "g": 71,
+    "b": 137,
+    "hex": "#8B4789"
+  },
+  {
+    "name": "Plum1",
+    "r": 255,
+    "g": 187,
+    "b": 255,
+    "hex": "#FFBBFF"
+  },
+  {
+    "name": "Plum2",
+    "r": 238,
+    "g": 174,
+    "b": 238,
+    "hex": "#EEAEEE"
+  },
+  {
+    "name": "Plum3",
+    "r": 205,
+    "g": 150,
+    "b": 205,
+    "hex": "#CD96CD"
+  },
+  {
+    "name": "Plum4",
+    "r": 139,
+    "g": 102,
+    "b": 139,
+    "hex": "#8B668B"
+  },
+  {
+    "name": "MediumOrchid1",
+    "r": 224,
+    "g": 102,
+    "b": 255,
+    "hex": "#E066FF"
+  },
+  {
+    "name": "MediumOrchid2",
+    "r": 209,
+    "g": 95,
+    "b": 238,
+    "hex": "#D15FEE"
+  },
+  {
+    "name": "MediumOrchid3",
+    "r": 180,
+    "g": 82,
+    "b": 205,
+    "hex": "#B452CD"
+  },
+  {
+    "name": "MediumOrchid4",
+    "r": 122,
+    "g": 55,
+    "b": 139,
+    "hex": "#7A378B"
+  },
+  {
+    "name": "DarkOrchid1",
+    "r": 191,
+    "g": 62,
+    "b": 255,
+    "hex": "#BF3EFF"
+  },
+  {
+    "name": "DarkOrchid2",
+    "r": 178,
+    "g": 58,
+    "b": 238,
+    "hex": "#B23AEE"
+  },
+  {
+    "name": "DarkOrchid3",
+    "r": 154,
+    "g": 50,
+    "b": 205,
+    "hex": "#9A32CD"
+  },
+  {
+    "name": "DarkOrchid4",
+    "r": 104,
+    "g": 34,
+    "b": 139,
+    "hex": "#68228B"
+  },
+  {
+    "name": "Purple1",
+    "r": 155,
+    "g": 48,
+    "b": 255,
+    "hex": "#9B30FF"
+  },
+  {
+    "name": "Purple2",
+    "r": 145,
+    "g": 44,
+    "b": 238,
+    "hex": "#912CEE"
+  },
+  {
+    "name": "Purple3",
+    "r": 125,
+    "g": 38,
+    "b": 205,
+    "hex": "#7D26CD"
+  },
+  {
+    "name": "Purple4",
+    "r": 85,
+    "g": 26,
+    "b": 139,
+    "hex": "#551A8B"
+  },
+  {
+    "name": "MediumPurple1",
+    "r": 171,
+    "g": 130,
+    "b": 255,
+    "hex": "#AB82FF"
+  },
+  {
+    "name": "MediumPurple2",
+    "r": 159,
+    "g": 121,
+    "b": 238,
+    "hex": "#9F79EE"
+  },
+  {
+    "name": "MediumPurple3",
+    "r": 137,
+    "g": 104,
+    "b": 205,
+    "hex": "#8968CD"
+  },
+  {
+    "name": "MediumPurple4",
+    "r": 93,
+    "g": 71,
+    "b": 139,
+    "hex": "#5D478B"
+  },
+  {
+    "name": "Thistle1",
+    "r": 255,
+    "g": 225,
+    "b": 255,
+    "hex": "#FFE1FF"
+  },
+  {
+    "name": "Thistle2",
+    "r": 238,
+    "g": 210,
+    "b": 238,
+    "hex": "#EED2EE"
+  },
+  {
+    "name": "Thistle3",
+    "r": 205,
+    "g": 181,
+    "b": 205,
+    "hex": "#CDB5CD"
+  },
+  {
+    "name": "Thistle4",
+    "r": 139,
+    "g": 123,
+    "b": 139,
+    "hex": "#8B7B8B"
+  },
+  {
+    "name": "grey11",
+    "r": 28,
+    "g": 28,
+    "b": 28,
+    "hex": "#1C1C1C"
+  },
+  {
+    "name": "grey21",
+    "r": 54,
+    "g": 54,
+    "b": 54,
+    "hex": "#363636"
+  },
+  {
+    "name": "grey31",
+    "r": 79,
+    "g": 79,
+    "b": 79,
+    "hex": "#4F4F4F"
+  },
+  {
+    "name": "DimGray",
+    "r": 105,
+    "g": 105,
+    "b": 105,
+    "hex": "#696969"
+  },
+  {
+    "name": "grey51",
+    "r": 130,
+    "g": 130,
+    "b": 130,
+    "hex": "#828282"
+  },
+  {
+    "name": "grey61",
+    "r": 156,
+    "g": 156,
+    "b": 156,
+    "hex": "#9C9C9C"
+  },
+  {
+    "name": "grey71",
+    "r": 181,
+    "g": 181,
+    "b": 181,
+    "hex": "#B5B5B5"
+  },
+  {
+    "name": "gray81",
+    "r": 207,
+    "g": 207,
+    "b": 207,
+    "hex": "#CFCFCF"
+  },
+  {
+    "name": "gray91",
+    "r": 232,
+    "g": 232,
+    "b": 232,
+    "hex": "#E8E8E8"
+  },
+  {
+    "name": "DarkGray",
+    "r": 169,
+    "g": 169,
+    "b": 169,
+    "hex": "#A9A9A9"
+  },
+  {
+    "name": "DarkBlue",
+    "r": 0,
+    "g": 0,
+    "b": 139,
+    "hex": "#00008B"
+  },
+  {
+    "name": "DarkCyan",
+    "r": 0,
+    "g": 139,
+    "b": 139,
+    "hex": "#008B8B"
+  },
+  {
+    "name": "DarkMagenta",
+    "r": 139,
+    "g": 0,
+    "b": 139,
+    "hex": "#8B008B"
+  },
+  {
+    "name": "DarkRed",
+    "r": 139,
+    "g": 0,
+    "b": 0,
+    "hex": "#8B0000"
+  },
+  {
+    "name": "LightGreen",
+    "r": 144,
+    "g": 238,
+    "b": 144,
+    "hex": "#90EE90"
+  }
+]

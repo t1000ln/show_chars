@@ -19,40 +19,40 @@ class UserInterface {open
           code1 {tab_main.clear_visible_focus();}
           code2 {tab_main.visible_focus(false);}
         } {
-          Fl_Flex flex_ascii {
-            label ASCII open
+          Fl_Flex tab_ascii {
+            label ASCII
             xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} set_size_tuples {1  1 800 }
           } {
             Fl_Box {} {
               xywh {10 10 230 760}
             }
-            Fl_Flex flex_ascii_table {open
-              xywh {240 10 800 760}
+            Fl_Flex flex_ascii_table {
+              xywh {240 10 800 760} color 54
             } {}
-            Fl_Box {} {
+            Fl_Box box_echo_ascii {
               xywh {1040 10 230 760}
             }
           }
-          Fl_Flex flex_emoji {
-            label Emoji open
-            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 set_size_tuples {1  1 1100 }
+          Fl_Flex tab_emoji {
+            label Emoji
+            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide set_size_tuples {1  1 1100 }
           } {
             Fl_Box {} {
               xywh {5 5 85 770}
             }
-            Fl_Flex flex_emoji_table {open selected
+            Fl_Flex flex_emoji_table {open
               xywh {90 5 1100 770}
             } {}
             Fl_Box {} {
               xywh {1190 5 85 770}
             }
           }
-          Fl_Flex flex_characters {
-            label Characters
-            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide
+          Fl_Flex tab_characters {
+            label Characters selected
+            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8
           } {}
-          Fl_Flex flex_color {
-            label {FLTK-Color}
+          Fl_Flex tab_fltk_color {
+            label {FLTK Color}
             xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} gap 5 set_size_tuples {1  1 600 }
           } {
             Fl_Box {} {
@@ -61,42 +61,19 @@ class UserInterface {open
             Fl_Flex flex_fltk_color {open
               xywh {340 10 600 760}
             } {}
-            Fl_Flex {} {open
-              xywh {945 10 325 760} set_size_tuples {1  1 50 }
-            } {
-              Fl_Box {} {
-                xywh {945 10 325 355}
-              }
-              Fl_Flex {} {open
-                xywh {945 365 325 50} type HORIZONTAL set_size_tuples {1  1 80 }
-              } {
-                Fl_Box {} {
-                  xywh {945 365 123 50}
-                }
-                Fl_Light_Button btn_toggle_color_index {
-                  label {显示序号}
-                  xywh {1068 365 80 50} value 1 color 53 selection_color 2
-                  code0 {btn_toggle_color_index.clear_visible_focus();}
-                  code1 {btn_toggle_color_index.visible_focus(false);}
-                }
-                Fl_Box {} {
-                  xywh {1148 365 122 50}
-                }
-              }
-              Fl_Box {} {
-                xywh {945 415 325 355}
-              }
+            Fl_Box box_echo_fltk_color_seq {
+              xywh {945 10 325 760}
             }
           }
-          Fl_Flex flex_ansi_8_color {
-            label {ANSI-8bit-Color}
+          Fl_Flex tab_ansi_8_color {
+            label {ANSI 8bit Color}
             xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} gap 10 set_size_tuples {2  0 64  2 64 }
           } {
             Fl_Flex {} {open
               xywh {10 10 1260 64} type HORIZONTAL margins {2 2 2 2} gap 10
             } {
               Fl_Flex {} {
-                label {标准色}
+                label {标准色} open
                 xywh {12 12 623 60} type HORIZONTAL align 17 margins {0 24 0 0} gap 1
               } {
                 Fl_Box box_normal1 {
@@ -105,19 +82,19 @@ class UserInterface {open
                 }
                 Fl_Box box_normal2 {
                   label 1
-                  xywh {90 36 77 36} box FLAT_BOX color 72 labelcolor 7
+                  xywh {90 36 77 36} box FLAT_BOX color 9 labelcolor 7
                 }
                 Fl_Box box_normal3 {
                   label 2
-                  xywh {168 36 77 36} box FLAT_BOX color 60 labelcolor 7
+                  xywh {168 36 77 36} box FLAT_BOX color 10 labelcolor 7
                 }
                 Fl_Box box_normal4 {
                   label 3
-                  xywh {246 36 77 36} box FLAT_BOX color 84 labelcolor 7
+                  xywh {246 36 77 36} box FLAT_BOX color 11 labelcolor 7
                 }
                 Fl_Box box_normal5 {
                   label 4
-                  xywh {324 36 77 36} box FLAT_BOX color 15 labelcolor 7
+                  xywh {324 36 77 36} box FLAT_BOX color 12 labelcolor 7
                 }
                 Fl_Box box_normal6 {
                   label 5
@@ -133,12 +110,12 @@ class UserInterface {open
                 }
               }
               Fl_Flex {} {
-                label {高亮色}
+                label {高亮色} open
                 xywh {645 12 623 60} type HORIZONTAL align 17 margins {0 24 0 0} gap 1
               } {
                 Fl_Box box_high1 {
                   label 8
-                  xywh {645 36 77 36} box FLAT_BOX color 47
+                  xywh {645 36 77 36} box FLAT_BOX color 8
                 }
                 Fl_Box box_high2 {
                   label 9
@@ -171,7 +148,7 @@ class UserInterface {open
               }
             }
             Fl_Flex flex_ansi_216 {
-              label {216色} open
+              label {216色}
               xywh {10 84 1260 301} align 17 margins {0 24 0 0} gap 5
             } {}
             Fl_Flex flex_ansi_gray {
@@ -275,8 +252,23 @@ class UserInterface {open
                 xywh {1217 419 51 38} box FLAT_BOX
               }
             }
-            Fl_Box {} {
+            Fl_Box box_echo_ansi_color_seq {
               xywh {10 469 1260 301}
+            }
+          }
+          Fl_Flex tab_html_color {
+            label {HTML Color}
+            xywh {5 5 1270 770} box FLAT_BOX color 54 hide margins {5 5 5 5} set_size_tuples {1  0 40 }
+          } {
+            Fl_Flex flex_echo_html_color {open
+              xywh {10 10 1260 40} type HORIZONTAL color 54 align 17 margins {0 15 0 0} gap 2
+            } {}
+            Fl_Scroll {} {open
+              xywh {10 50 1260 720} type VERTICAL box FLAT_BOX color 54
+            } {
+              Fl_Pack pack_html_color {open
+                xywh {10 45 1260 715} color 54
+              } {}
             }
           }
         }

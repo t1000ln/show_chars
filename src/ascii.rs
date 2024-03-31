@@ -1,5 +1,7 @@
+use std::fmt::format;
+use fltk::app;
 use fltk::enums::{Color, Font};
-use fltk::prelude::{GroupExt, TableExt};
+use fltk::prelude::{GroupExt, TableExt, WidgetExt};
 use fltk_table::{SmartTable, TableOpts};
 use crate::ui_loader::UserInterface;
 
@@ -17,9 +19,10 @@ pub fn init_ascii_tab(ui: &mut UserInterface) {
             cell_font: Font::Screen,
             cell_font_size: CELL_FONT_SIZE,
             cell_border_color: Color::by_index(52),
-            header_color: Color::by_index(52),
+            header_color: Color::by_index(54),
             ..Default::default()
         });
+    table.set_color(ui.flex_ascii_table.color());
 
     table.set_col_header_value(0, "Bin\n(二进制)");
     table.set_col_header_value(1, "Oct\n(八进制)");
@@ -37,6 +40,16 @@ pub fn init_ascii_tab(ui: &mut UserInterface) {
     table.set_col_width(4, 18 / 2 * 26);
     table.set_col_width(5, 18 / 2 * 13);
 
+    table.set_callback({
+        let mut echo_box = ui.box_echo_ascii.clone();
+        move |st| {
+            // println!("{:?}", st.get_selection());
+            let (r1, c1, _, _) = st.get_selection();
+            let v = st.cell_value(r1, c1);
+            app::copy(v.as_str());
+            echo_box.set_label(format!("已复制到剪贴板:\n {}", v).as_str());
+        }
+    });
 
     ui.flex_ascii_table.end();
 

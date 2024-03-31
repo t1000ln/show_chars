@@ -1,17 +1,18 @@
-use fltk::enums::{Color, FrameType};
+use fltk::app;
+use fltk::app::ClipboardContent;
+use fltk::enums::{CallbackTrigger, Color, Event, FrameType};
 use fltk::frame::Frame;
 use fltk::group::Flex;
-use fltk::prelude::{GroupExt, WidgetExt};
+use fltk::prelude::{GroupExt, WidgetBase, WidgetExt};
 use crate::ui_loader::UserInterface;
 
 pub fn init_ansi_8_color(ui: &mut UserInterface) {
-    ui.flex_ansi_8_color.begin();
+    ui.tab_ansi_8_color.begin();
 
     init_216_color(ui);
     init_gray_color(ui);
 
-
-    ui.flex_ansi_8_color.end();
+    ui.tab_ansi_8_color.end();
 }
 
 fn init_216_color(ui: &mut UserInterface) {
@@ -31,6 +32,19 @@ fn init_216_color(ui: &mut UserInterface) {
                 rect.set_frame(FrameType::FlatBox);
                 rect.set_color(Color::from_rgb(red_color, green_color, blue_color));
 
+                // rect.handle({
+                //     let mut echo_box = ui.box_echo_ansi_color_seq.clone();
+                //     move |f, evt| {
+                //         if evt == Event::Released {
+                //             app::copy(&*f.label());
+                //             echo_box.set_label(format!("已复制到剪贴板: {}", f.label()).as_str());
+                //             true
+                //         } else {
+                //             false
+                //         }
+                //     }
+                // });
+
                 if r < 4 && g < 4 {
                     rect.set_label_color(Color::White);
                 }
@@ -43,6 +57,22 @@ fn init_216_color(ui: &mut UserInterface) {
     }
     ui.flex_ansi_216.end();
     ui.flex_ansi_216.recalc();
+
+    ui.tab_ansi_8_color.handle({
+        let mut echo_box = ui.box_echo_ansi_color_seq.clone();
+        move |area, evt| {
+            if evt == Event::Released {
+                if let Some(w) = app::belowmouse::<Frame>() {
+                    // println!("{}", w.label());
+                    app::copy(w.label().as_str());
+                    echo_box.set_label(format!("已复制到剪贴板: {}", w.label()).as_str());
+                }
+                true
+            } else {
+                false
+            }
+        }
+    });
 }
 
 fn init_gray_color(ui: &mut UserInterface) {

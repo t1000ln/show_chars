@@ -1,7 +1,8 @@
-use fltk::enums::{Align, Color, FrameType, LabelType};
+use fltk::app;
+use fltk::enums::{Align, Color, Event, FrameType, LabelType};
 use fltk::frame::Frame;
 use fltk::group::Flex;
-use fltk::prelude::{GroupExt, WidgetExt};
+use fltk::prelude::{GroupExt, WidgetBase, WidgetExt};
 use crate::ui_loader::UserInterface;
 
 pub fn init_fltk_color(ui: &mut UserInterface) {
@@ -40,26 +41,40 @@ pub fn init_fltk_color(ui: &mut UserInterface) {
     ui.flex_fltk_color.end();
     ui.flex_fltk_color.recalc();
 
-    setup_btn(ui);
+    ui.flex_fltk_color.handle({
+        let mut echo_box = ui.box_echo_fltk_color_seq.clone();
+        move |area, evt| {
+            if evt == Event::Released {
+                if let Some(w) = app::belowmouse::<Frame>() {
+                    // println!("{}", w.label());
+                    app::copy(w.label().as_str());
+                    echo_box.set_label(format!("已复制到剪贴板: {}", w.label()).as_str());
+                }
+                true
+            } else {
+                false
+            }
+        }
+    })
 }
 
-fn setup_btn(ui: &mut UserInterface) {
-    ui.btn_toggle_color_index.set_callback({
-        let mut flex = ui.flex_fltk_color.clone();
-        move |btn| {
-            let toggle = btn.is_on();
-            for i in 0..flex.children() {
-                if let Some(sub_flex) = flex.child(i) {
-                    if let Some(sub_grp) = sub_flex.as_group() {
-                        for j in 0..sub_grp.children() {
-                            if let Some(mut rect) = sub_grp.child(j) {
-                                rect.set_label_type(if toggle {LabelType::Normal} else {LabelType::None});
-                            }
-                        }
-                    }
-                }
-            }
-            flex.set_damage(true);
-        }
-    });
-}
+// fn setup_btn(ui: &mut UserInterface) {
+//     ui.btn_toggle_color_index.set_callback({
+//         let mut flex = ui.flex_fltk_color.clone();
+//         move |btn| {
+//             let toggle = btn.is_on();
+//             for i in 0..flex.children() {
+//                 if let Some(sub_flex) = flex.child(i) {
+//                     if let Some(sub_grp) = sub_flex.as_group() {
+//                         for j in 0..sub_grp.children() {
+//                             if let Some(mut rect) = sub_grp.child(j) {
+//                                 rect.set_label_type(if toggle {LabelType::Normal} else {LabelType::None});
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//             flex.set_damage(true);
+//         }
+//     });
+// }
