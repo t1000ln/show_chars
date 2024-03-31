@@ -31,6 +31,9 @@ pub fn init_emoji(ui: &mut UserInterface) {
         });
     table.set_col_width_all(64);
     table.set_row_height_all(64);
+    table.set_col_header(false);
+    table.set_row_header(false);
+
     let (mut col, mut row) = (0, 0);
 
     let mut skip_next_char = false;
@@ -65,10 +68,13 @@ pub fn init_emoji(ui: &mut UserInterface) {
         move |st| {
             // println!("{:?}", st.get_selection());
             let (r1, c1, _, _) = st.get_selection();
-            let v = st.cell_value(r1, c1);
-            let decoded = v.chars().map(|c| format!("{:X?}", c as u32)).collect::<Vec<_>>().join("  ");
-            app::copy(v.as_str());
-            echo_box.set_label(format!("已复制到剪贴板: {} => {}", v, decoded).as_str());
+            if r1 >= 0 && c1 >= 0 {
+                let v = st.cell_value(r1, c1);
+                let decoded = v.chars().map(|c| format!("{:X?}", c as u32)).collect::<Vec<_>>().join("  ");
+                app::copy(v.as_str());
+                echo_box.set_label(format!("已复制到剪贴板: {} => {}", v, decoded).as_str());
+            }
+
         }
     });
 

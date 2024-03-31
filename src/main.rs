@@ -11,6 +11,8 @@ use std::path::PathBuf;
 
 use fltk::app::App;
 use fltk::enums::Font;
+use fltk::image::{PngImage, SharedImage, SvgImage};
+use fltk::prelude::WindowExt;
 use crate::ansi_8_color::init_ansi_8_color;
 use crate::ascii::init_ascii_tab;
 use crate::characters::init_characters;
@@ -18,6 +20,9 @@ use crate::emoji::init_emoji;
 use crate::fltk_color::init_fltk_color;
 use crate::html_color::init_html_color;
 use crate::ui_loader::UserInterface;
+
+// pub const ICON_SVG: &str = include_str!("../resource/zhongwen.svg");
+pub const ICON_PNG: &[u8] = include_bytes!("../resource/ma.png");
 
 
 fn main() {
@@ -42,6 +47,10 @@ fn main() {
     }
 
     let mut ui: UserInterface = UserInterface::make_window();
+
+    if let Ok(icon) = PngImage::from_data(ICON_PNG) {
+        ui.win_main.set_icon(Some(icon));
+    }
 
     init_ascii_tab(&mut ui);
     init_emoji(&mut ui);

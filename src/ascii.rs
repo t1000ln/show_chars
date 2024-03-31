@@ -44,9 +44,12 @@ pub fn init_ascii_tab(ui: &mut UserInterface) {
         move |st| {
             // println!("{:?}", st.get_selection());
             let (r1, c1, _, _) = st.get_selection();
-            let v = st.cell_value(r1, c1);
-            app::copy(v.as_str());
-            echo_box.set_label(format!("已复制到剪贴板:\n {}", v).as_str());
+            if r1 >= 0 && c1 >= 0 {
+                let v = st.cell_value(r1, c1);
+                app::copy(v.as_str());
+                echo_box.set_label(format!("已复制到剪贴板:\n {}", v).as_str());
+            }
+
         }
     });
 
