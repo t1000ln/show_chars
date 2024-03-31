@@ -1,6 +1,5 @@
 use fltk::app;
-use fltk::app::ClipboardContent;
-use fltk::enums::{CallbackTrigger, Color, Event, FrameType};
+use fltk::enums::{Color, Event, FrameType};
 use fltk::frame::Frame;
 use fltk::group::Flex;
 use fltk::prelude::{GroupExt, WidgetBase, WidgetExt};
@@ -60,7 +59,7 @@ fn init_216_color(ui: &mut UserInterface) {
 
     ui.tab_ansi_8_color.handle({
         let mut echo_box = ui.box_echo_ansi_color_seq.clone();
-        move |area, evt| {
+        move |_area, evt| {
             if evt == Event::Released {
                 if let Some(w) = app::belowmouse::<Frame>() {
                     // println!("{}", w.label());

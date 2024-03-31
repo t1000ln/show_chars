@@ -8,7 +8,7 @@ class UserInterface {open
   } {
     Fl_Window win_main {
       label Chars open
-      xywh {463 186 1280 800} type Double color 54 resizable hotspot size_range {200 200 1920 1080} visible
+      xywh {462 162 1280 800} type Double color 54 resizable hotspot size_range {200 200 1920 1080} visible
     } {
       Fl_Flex {} {open
         xywh {0 0 1280 800} box FLAT_BOX color 54 labeltype NO_LABEL resizable hotspot margins {5 5 5 5} gap 5
@@ -20,8 +20,8 @@ class UserInterface {open
           code2 {tab_main.visible_focus(false);}
         } {
           Fl_Flex tab_ascii {
-            label ASCII
-            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} set_size_tuples {1  1 800 }
+            label ASCII selected
+            xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 margins {5 5 5 5} set_size_tuples {1  1 800 }
           } {
             Fl_Box {} {
               xywh {10 10 230 760}
@@ -41,16 +41,109 @@ class UserInterface {open
               xywh {5 5 85 770}
             }
             Fl_Flex flex_emoji_table {open
-              xywh {90 5 1100 770}
-            } {}
+              xywh {90 5 1100 770} set_size_tuples {1  0 20 }
+            } {
+              Fl_Box box_echo_emoji {
+                xywh {90 5 1100 20} labelfont 12
+              }
+            }
             Fl_Box {} {
               xywh {1190 5 85 770}
             }
           }
           Fl_Flex tab_characters {
-            label Characters selected
-            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8
-          } {}
+            label Characters
+            xywh {5 5 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide set_size_tuples {1  1 600 }
+          } {
+            Fl_Box {} {
+              xywh {5 5 1270 85}
+            }
+            Fl_Flex {} {open
+              xywh {5 90 1270 600} type HORIZONTAL set_size_tuples {1  1 800 }
+            } {
+              Fl_Box {} {
+                xywh {5 90 235 600}
+              }
+              Fl_Flex {} {
+                xywh {240 90 800 600} margins {150 0 0 0} gap 5 set_size_tuples {2  4 32  5 32 }
+              } {
+                Fl_Input in_char_str {
+                  label {原字符串:}
+                  xywh {390 90 650 128} type Multiline when 1
+                }
+                Fl_Output out_char_codes {
+                  label {Unicode码:}
+                  xywh {390 223 650 128} type Multiline color 54
+                  code0 {out_char_codes.set_cursor_color(out_char_codes.color());}
+                }
+                Fl_Output out_char_codes_rust {
+                  label {Unicode
+字符串(Rust):}
+                  xywh {390 356 650 128} type Multiline color 54
+                  code0 {out_char_codes_rust.set_cursor_color(out_char_codes_rust.color());}
+                }
+                Fl_Output out_char_codes_java {
+                  label {Unicode
+字符串(java/js/py):}
+                  xywh {390 489 650 127} type Multiline color 54
+                  code0 {out_char_codes_java.set_cursor_color(out_char_codes_java.color());}
+                }
+                Fl_Flex {} {open
+                  xywh {390 621 650 32} type HORIZONTAL set_size_tuples {4  0 90  1 40  2 80  3 80 }
+                } {
+                  Fl_Input in_char_code {
+                    label {Unicode编码(hex):}
+                    xywh {390 621 90 32} when 1
+                  }
+                  Fl_Box {} {
+                    label {=>}
+                    xywh {480 621 40 32}
+                  }
+                  Fl_Output out_char {
+                    xywh {520 621 80 32} box FLAT_BOX color 54
+                    code0 {out_char.set_cursor_color(out_char.color());}
+                  }
+                  Fl_Box {} {
+                    xywh {600 621 80 32}
+                  }
+                  Fl_Output out_hanzi_range {
+                    label {汉字范围:}
+                    xywh {680 621 180 32} box FLAT_BOX color 54
+                    code0 {out_hanzi_range.set_cursor_color(out_hanzi_range.color());}
+                    code1 {out_hanzi_range.set_value("4E00 - 9FFF");}
+                  }
+                  Fl_Box {} {
+                    xywh {860 621 180 32}
+                  }
+                }
+                Fl_Flex {} {open
+                  xywh {390 658 650 32} type HORIZONTAL set_size_tuples {2  0 400  2 120 }
+                } {
+                  Fl_Output out_hanzi_reg {
+                    label {汉字正则:}
+                    xywh {390 658 400 32} box FLAT_BOX color 54
+                    code0 {out_hanzi_reg.set_cursor_color(out_hanzi_reg.color());}
+                    code1 {out_hanzi_reg.set_value("[\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF] 或 \\p {Han}");}
+                  }
+                  Fl_Box {} {
+                    xywh {790 658 130 32}
+                  }
+                  Fl_Output out_cjk_reg {
+                    label {CJK正则:}
+                    xywh {920 658 120 32} box FLAT_BOX color 54
+                    code0 {out_cjk_reg.set_cursor_color(out_cjk_reg.color());}
+                    code1 {out_cjk_reg.set_value("[\\u2E80-\\uFE4F]");}
+                  }
+                }
+              }
+              Fl_Box {} {
+                xywh {1040 90 235 600}
+              }
+            }
+            Fl_Box {} {
+              xywh {5 690 1270 85}
+            }
+          }
           Fl_Flex tab_fltk_color {
             label {FLTK Color}
             xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} gap 5 set_size_tuples {1  1 600 }
@@ -258,13 +351,13 @@ class UserInterface {open
           }
           Fl_Flex tab_html_color {
             label {HTML Color}
-            xywh {5 5 1270 770} box FLAT_BOX color 54 hide margins {5 5 5 5} set_size_tuples {1  0 40 }
+            xywh {5 0 1270 770} box FLAT_BOX color 54 selection_color 52 labelcolor 8 hide margins {5 5 5 5} set_size_tuples {1  0 40 }
           } {
             Fl_Flex flex_echo_html_color {open
-              xywh {10 10 1260 40} type HORIZONTAL color 54 align 17 margins {0 15 0 0} gap 2
+              xywh {10 5 1260 40} type HORIZONTAL color 54 align 17 margins {0 20 0 0} gap 2
             } {}
             Fl_Scroll {} {open
-              xywh {10 50 1260 720} type VERTICAL box FLAT_BOX color 54
+              xywh {10 45 1260 720} type VERTICAL box FLAT_BOX color 54
             } {
               Fl_Pack pack_html_color {open
                 xywh {10 45 1260 715} color 54

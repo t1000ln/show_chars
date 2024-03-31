@@ -1,4 +1,3 @@
-use std::fmt::format;
 use fltk::app;
 use fltk::enums::{Color, Font};
 use fltk::prelude::{GroupExt, TableExt, WidgetExt};
@@ -32,7 +31,7 @@ pub fn init_ascii_tab(ui: &mut UserInterface) {
     table.set_col_header_value(5, "解释");
 
     table.set_col_header_height(40);
-    table.set_row_height_all(32);
+    table.set_row_height_all(50);
     table.set_col_width(0, 18 / 2 * 12);
     // table.set_col_width(0, 18 / 2 * 10);
     // table.set_col_width(0, 18 / 2 * 10);
@@ -73,7 +72,6 @@ fn auto_fill_math_value(table: &mut SmartTable) {
 }
 
 fn fill_static_desc(table: &mut SmartTable) {
-
     table.set_cell_value(0, 5, "空字符");
     for (row, (c, d)) in ASCII_DESC.iter().enumerate() {
         table.set_cell_value(row as i32, 4, c);
@@ -81,40 +79,39 @@ fn fill_static_desc(table: &mut SmartTable) {
     }
 }
 
-
 pub const ASCII_DESC: &[(&str, &str)] = &[
     ("NUL(null)", "空字符"),
-    ("SOH(start of headline)", "标题开始"),
-    ("STX (start of text)", "正文开始"),
-    ("ETX (end of text)", "正文结束"),
-    ("EOT (end of transmission)", "传输结束"),
-    ("ENQ (enquiry)", "请求"),
-    ("ACK (acknowledge)", "收到通知"),
-    ("BEL (bell)", "响铃"),
-    ("BS (backspace)", "退格"),
-    ("HT (horizontal tab)", "水平制表符"),
-    ("LF (NL line feed, new line)", "换行键"),
-    ("VT (vertical tab)", "垂直制表符"),
-    ("FF (NP form feed, new page)", "换页键"),
-    ("CR (carriage return)", "回车键"),
-    ("SO (shift out)", "不用切换"),
-    ("SI (shift in)", "启用切换"),
-    ("DLE (data link escape)", "数据链路转义"),
-    ("DC1 (device control 1)", "设备控制1"),
-    ("DC2 (device control 2)", "设备控制2"),
-    ("DC3 (device control 3)", "设备控制3"),
-    ("DC4 (device control 4)", "设备控制4"),
-    ("NAK (negative acknowledge)", "拒绝接收"),
-    ("SYN (synchronous idle)", "同步空闲"),
-    ("ETB (end of trans. block)", "结束传输块"),
-    ("CAN (cancel)", "取消"),
-    ("EM (end of medium)", "媒介结束"),
-    ("SUB (substitute)", "代替"),
-    ("ESC (escape)", "换码(溢出)"),
-    ("FS (file separator)", "文件分隔符"),
-    ("GS (group separator)", "分组符"),
-    ("RS (record separator)", "记录分隔符"),
-    ("US (unit separator)", "单元分隔符"),
+    ("^A Control+A \nSOH(start of headline)", "标题开始"),
+    ("^B Control+B \nSTX (start of text)", "正文开始"),
+    ("^C Control+C \nETX (end of text)", "正文结束"),
+    ("^D Control+D \nEOT (end of transmission)", "传输结束"),
+    ("^E Control+E \nENQ (enquiry)", "请求"),
+    ("^F Control+F \nACK (acknowledge)", "收到通知"),
+    ("^G Control+G \nBEL (bell)", "响铃"),
+    ("^H Control+H \nBS (backspace)", "退格"),
+    ("^I Control+I \nHT (horizontal tab)", "水平制表符"),
+    ("^J Control+J \nLF (NL line feed, new line)", "换行键"),
+    ("^K Control+K \nVT (vertical tab)", "垂直制表符"),
+    ("^L Control+L \nFF (NP form feed, new page)", "换页键"),
+    ("^M Control+M \nCR (carriage return)", "回车键"),
+    ("^N Control+N \nSO (shift out)", "不用切换"),
+    ("^O Control+O \nSI (shift in)", "启用切换"),
+    ("^P Control+P \nDLE (data link escape)", "数据链路转义"),
+    ("^Q Control+Q \nDC1 (device control 1)", "设备控制1"),
+    ("^R Control+R \nDC2 (device control 2)", "设备控制2"),
+    ("^S Control+S \nDC3 (device control 3)", "设备控制3"),
+    ("^T Control+T \nDC4 (device control 4)", "设备控制4"),
+    ("^U Control+U \nNAK (negative acknowledge)", "拒绝接收"),
+    ("^V Control+V \nSYN (synchronous idle)", "同步空闲"),
+    ("^W Control+W \nETB (end of trans. block)", "结束传输块"),
+    ("^X Control+X \nCAN (cancel)", "取消"),
+    ("^Y Control+Y \nEM (end of medium)", "媒介结束"),
+    ("^Z Control+Z \nSUB (substitute)", "代替"),
+    ("^[ Control+[ \nESC (escape)", "换码(溢出)"),
+    ("^\\ Control+\\ \nFS (file separator)", "文件分隔符"),
+    ("^] Control+] \nGS (group separator)", "分组符"),
+    ("^^ Control+^ \nRS (record separator)", "记录分隔符"),
+    ("^_ Control+_ \nUS (unit separator)", "单元分隔符"),
     ("(space)", "空格"),
     ("!", "叹号"),
     ("\"", "双引号"),

@@ -155,6 +155,7 @@ dependencies = [
 name = "show_chars"
 version = "0.1.0"
 dependencies = [
+ "bitflags",
  "fl2rust",
  "fltk",
  "fltk-table",

@@ -5,7 +5,6 @@ use fltk::frame::Frame;
 use fltk::group::Flex;
 use fltk::output::Output;
 use fltk::prelude::{GroupExt, InputExt, WidgetBase, WidgetExt};
-use fltk::window::Window;
 use serde::{Deserialize, Serialize};
 use crate::ui_loader::UserInterface;
 

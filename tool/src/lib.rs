@@ -1,7 +1,8 @@
+use std::fs;
 use std::fs::File;
-use std::io::{BufReader, BufWriter, LineWriter};
+use std::io::{BufReader, BufWriter, Write};
+use std::path::PathBuf;
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct ColorInfo {
@@ -42,8 +43,24 @@ pub fn load_colors()  {
     let to_file = File::create("../resource/html_colors.json").unwrap();
     let writer = BufWriter::new(to_file);
     serde_json::to_writer_pretty(writer, &odd).unwrap();
-
 }
+
+pub fn load_emoji() {
+    if let Ok(old) = fs::read_to_string(PathBuf::from("../resource/emoji.txt")) {
+        // println!("{old}");
+
+        let new = old.replace("\n", "");
+        // println!("{new}");
+        let to_file = File::create("../resource/emoji2.txt").unwrap();
+        let mut writer = BufWriter::new(to_file);
+        writer.write_all(new.as_bytes()).unwrap();
+    }
+
+    // let to_file = File::create("../resource/html_colors.json").unwrap();
+    // let writer = BufWriter::new(to_file);
+    // serde_json::to_writer_pretty(writer, &odd).unwrap();
+}
+
 
 #[cfg(test)]
 mod tests {
@@ -59,5 +76,13 @@ mod tests {
         let r = 2 / 3;
         println!("{r}");
         assert_eq!(r, 0);
+
+        println!("\u{a9}");
+        println!("\u{a9}\u{fe0f}");
+    }
+
+    #[test]
+    fn load_emoji_test() {
+        load_emoji();
     }
 }

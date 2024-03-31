@@ -43,7 +43,7 @@ pub fn init_fltk_color(ui: &mut UserInterface) {
 
     ui.flex_fltk_color.handle({
         let mut echo_box = ui.box_echo_fltk_color_seq.clone();
-        move |area, evt| {
+        move |_area, evt| {
             if evt == Event::Released {
                 if let Some(w) = app::belowmouse::<Frame>() {
                     // println!("{}", w.label());
