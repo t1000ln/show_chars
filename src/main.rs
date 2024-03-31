@@ -11,7 +11,7 @@ use std::path::PathBuf;
 
 use fltk::app::App;
 use fltk::enums::Font;
-use fltk::image::{PngImage, SharedImage, SvgImage};
+use fltk::image::{PngImage};
 use fltk::prelude::WindowExt;
 use crate::ansi_8_color::init_ansi_8_color;
 use crate::ascii::init_ascii_tab;
