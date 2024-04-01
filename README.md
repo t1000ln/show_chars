@@ -21,4 +21,4 @@ $ cargo install show_chars
 
 
 # 已知问题
-- 在`Windows`环境下，`FLTK`无线
+- 在`Windows`环境下，无法显示`Emoji`字符颜色，这是`FLTK`组件的缺陷，暂时无法解决。
