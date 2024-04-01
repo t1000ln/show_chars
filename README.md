@@ -1,9 +1,24 @@
 # Show Chars
-这是一个`rust`应用程序，用于辅助`fltk`开发过程。
+这是一个辅助`fltk`开发过程的手册应用。
 
-该应用提供常用字符及颜色查看功能。
-- `fltk`颜色表。
-- `ANSI`颜色表。
-- `web`颜色表。
+该手册提供常用字符及颜色查看功能。
 - `ASCII`码表。
+- `Emoji`字符表。
+- `Unicode`字符码值查询。
+- `Fltk-color`颜色表。
+- `ANSI-color`颜色表。
+- `HTML-color`颜色表。
 
+在应用界面上鼠标点击目标节点，即可复制对应的码值到系统剪贴板。
+
+# 安装方法
+使用`cargo`命令安装：
+```bash
+$ cargo install show_chars
+```
+在`linux`桌面环境，该应用依赖`Emoji`字体`NotoColorEmoji.ttf`才能正常显示`Emoji`符号，下载地址：`https://github.com/googlefonts/noto-emoji/tree/main/fonts`。
+请自行安装字体。
+
+
+# 已知问题
+- 在`Windows`环境下，`FLTK`无线

@@ -7,8 +7,8 @@ class UserInterface {open
   Function {make_window()} {open
   } {
     Fl_Window win_main {
-      label Chars open
-      xywh {462 162 1280 800} type Double color 54 resizable hotspot size_range {200 200 1920 1080} visible
+      label Chars open selected
+      xywh {462 162 1280 800} type Double color 54 resizable size_range {200 200 1920 1080} visible
     } {
       Fl_Flex {} {open
         xywh {0 0 1280 800} box FLAT_BOX color 54 labeltype NO_LABEL resizable hotspot margins {5 5 5 5} gap 5
@@ -20,7 +20,7 @@ class UserInterface {open
           code2 {tab_main.visible_focus(false);}
         } {
           Fl_Flex tab_ascii {
-            label ASCII selected
+            label ASCII
             xywh {5 5 1270 770} type HORIZONTAL box FLAT_BOX color 54 selection_color 52 labelcolor 8 margins {5 5 5 5} set_size_tuples {1  1 800 }
           } {
             Fl_Box {} {

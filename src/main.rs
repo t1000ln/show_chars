@@ -1,10 +1,20 @@
+#![cfg_attr(
+all(
+target_os = "windows",
+not(debug_assertions),
+),
+windows_subsystem = "windows"
+)]
+
 mod ui_loader;
-mod ascii;
+// mod ascii;
 mod fltk_color;
 mod ansi_8_color;
-mod emoji;
+// mod emoji;
 mod html_color;
 mod characters;
+mod ascii;
+mod emoji;
 
 #[cfg(target_os = "linux")]
 use std::path::PathBuf;
