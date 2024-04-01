@@ -8,7 +8,7 @@ use fltk::prelude::{GroupExt, InputExt, WidgetBase, WidgetExt};
 use serde::{Deserialize, Serialize};
 use crate::ui_loader::UserInterface;
 
-pub const HTML_COLOR_STR: &str = include_str!("../resource/html_colors.json");
+pub const HTML_COLOR_STR: &str = include_str!("resource/html_colors.json");
 
 const HTML_COLOR_SPLIT_COLS: usize = 3;
 

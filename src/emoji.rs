@@ -7,7 +7,7 @@ use crate::ui_loader::UserInterface;
 pub const EMOJI_COLS: i32 = 16;
 pub const EMOJI_FONT_SIZE: i32 = 20;
 
-pub const EMOJI_CHAR_BYTES: &[u8] = include_bytes!("../resource/emoji2.txt");
+pub const EMOJI_CHAR_BYTES: &[u8] = include_bytes!("resource/emoji2.txt");
 // pub const EMOJI_CHAR_STR: &str = include_str!("../resource/emoji2.txt");
 
 pub fn init_emoji(ui: &mut UserInterface) {

@@ -32,7 +32,7 @@ use crate::html_color::init_html_color;
 use crate::ui_loader::UserInterface;
 
 // pub const ICON_SVG: &str = include_str!("../resource/zhongwen.svg");
-pub const ICON_PNG: &[u8] = include_bytes!("../resource/ma.png");
+pub const ICON_PNG: &[u8] = include_bytes!("resource/ma.png");
 
 
 fn main() {
